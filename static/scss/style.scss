@@ -1,1 +1,9 @@
-@import 'config';
+// @import 'config';
+
+$background-color: #000;
+$text-color: #fff;
+
+body {
+  background-color: $background-color;
+  color: $text-color;
+}
