@@ -1,4 +1,41 @@
 body {
+  height: 100vh;
   background-color: #222222;
   color: #fff;
+  font-size: 2em;
+}
+
+#navbar {
+  background-color: #21ba45;
+  width: 100%;
+}
+
+#navbar #nav-logo {
+  height: 50px;
+  margin-top: 5px;
+  margin-left: 15px;
+}
+
+#navbar #site-name {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+#navbar #slippi-logo {
+  height: 45px;
+  margin-top: 8px;
+  margin-right: 15px;
+  opacity: 0;
+}
+
+#navbar #slippi-logo:hover {
+  opacity: 0.5;
+}
+
+footer .fa-github {
+  color: #fff;
+}
+
+footer .fa-github:hover {
+  color: #ccc;
 }

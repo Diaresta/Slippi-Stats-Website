@@ -2,9 +2,53 @@
 
 $background-color: #222222;
 $text-color: #fff;
+$text-hover: #ccc;
 $accent-color: #21ba45;
 
 body {
+  height: 100vh;
   background-color: $background-color;
   color: $text-color;
+  font-size: 2em;
+}
+
+#navbar {
+  background-color: $accent-color;
+  width: 100%;
+
+  // Header
+  #nav-logo {
+    height: 50px;
+    margin-top: 5px;
+    margin-left: 15px;
+  }
+
+  #site-name {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  #slippi-logo {
+    height: 45px;
+    margin-top: 8px;
+    margin-right: 15px;
+    opacity: 0;
+  }
+
+  #slippi-logo:hover {
+    opacity: 0.5;
+  }
+}
+
+footer {
+  #navbar.fixed-bottom {
+  }
+
+  .fa-github {
+    color: $text-color;
+  }
+
+  .fa-github:hover {
+    color: $text-hover;
+  }
 }

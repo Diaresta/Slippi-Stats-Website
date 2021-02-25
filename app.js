@@ -15,9 +15,11 @@ app.engine('handlebars', exphbs({ defaultLayout: 'main' }));
 app.set('view engine', 'handlebars');
 
 // Routing
-app.get(['/', '/home'], (req, res) => res.render('SOMETHING', {
-  title: 'Whatever title';
-}));
+app.get(['/', '/home'], (req, res) =>
+  res.render('home', {
+    title: 'Shine: Slippi Stats Parser',
+  })
+);
 
 app.listen(PORT, () => {
   console.log(`Listening on port ${PORT}`);
