@@ -1,6 +1,74 @@
 body {
-  background-color: #000;
+  height: 100vh;
+  background-color: #222222;
+  color: #fff;
+  font-size: 1rem;
+}
+
+#navbar {
+  background-color: #21ba45;
+  width: 100%;
+  font-size: 2em;
+}
+
+#navbar #nav-logo {
+  height: 50px;
+  margin-top: 5px;
+  margin-left: 15px;
+}
+
+#navbar #site-name {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+#navbar #slippi-logo {
+  height: 45px;
+  margin-top: 8px;
+  margin-right: 15px;
+  opacity: 0;
+}
+
+#navbar #slippi-logo:hover {
+  opacity: 0.5;
+}
+
+footer p {
+  font-size: 1rem;
+  padding-top: 7px;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+footer .navbar-brand {
   color: #fff;
 }
 
-/*# sourceMappingURL=style.css.map */
+footer .navbar-brand:hover {
+  color: #ccc;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+#upload-box {
+  margin: auto;
+  width: 400px;
+  height: 200px;
+  border: 3px dotted #ccc;
+  line-height: 180px;
+}
+
+#upload-box input {
+  display: none;
+}
+
+#upload-box.dragover {
+  border-color: #21ba45;
+  color: #ccc;
+}
