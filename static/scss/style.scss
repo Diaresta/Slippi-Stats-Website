@@ -1,20 +1,16 @@
-// @import 'config';
-
-$background-color: #222222;
-$text-color: #fff;
-$text-hover: #ccc;
-$accent-color: #21ba45;
+@import 'config';
 
 body {
   height: 100vh;
   background-color: $background-color;
   color: $text-color;
-  font-size: 2em;
+  font-size: 1rem;
 }
 
 #navbar {
   background-color: $accent-color;
   width: 100%;
+  font-size: 2em;
 
   // Header
   #nav-logo {
@@ -41,14 +37,24 @@ body {
 }
 
 footer {
+  p {
+    font-size: 1rem;
+    padding-top: 7px;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
   #navbar.fixed-bottom {
   }
 
-  .fa-github {
+  .navbar-brand {
     color: $text-color;
   }
 
-  .fa-github:hover {
+  .navbar-brand:hover {
     color: $text-hover;
   }
 }
+
+@import 'upload-page';
