@@ -2,7 +2,10 @@
 
 !!Bootstrap is overriding css!!
 
-Possible names: - Shine Slippi Parser
+Possible names:
+
+1. Shine: Slippi Stats Parser
+2. Shine: SSBM Stats Parser/Generator
 
 # About
 
