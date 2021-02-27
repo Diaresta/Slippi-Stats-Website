@@ -2,16 +2,19 @@
     <main>
         <div id="upload-box" class="upload-box">
             <p>Drop .slp file here | Click to select</p>
+            <p id="fileName"></p>
             <input accept=".slp" type="file">
         </div>
 
-        <div id="uploaded-file">Ree</div>
+        {{!-- <div id="uploaded-file">Ree</div> --}}
 
         <div id="stat-buttons">
-            <button>Let's get those stats</button>
-            <button>or clear that's cool too</button>
+            <button id="statsButton">Let's get those stats</button><br>
+            <button id="clearButton">(or clear that's cool too)</button>
         </div>
     </main>
 
     <script src="scripts/upload-box.js"></script>
+    {{!--
+    <script src="scripts/script.js"></script> --}}
 </body>
