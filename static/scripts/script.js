@@ -1,10 +1,13 @@
+// let test = document.getElementById('test');
+
 const { default: SlippiGame } = require('@slippi/slippi-js');
 
-const game = new SlippiGame('test.slp');
+const game = new SlippiGame('./public/uploads/match.slp');
 
 // Get game settings – stage, characters, etc
 const settings = game.getSettings();
 console.log(settings);
+// test.innerHTML = settings;
 
 // Get metadata - start time, platform played on, etc
 const metadata = game.getMetadata();
