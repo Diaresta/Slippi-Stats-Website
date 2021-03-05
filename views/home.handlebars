@@ -1,21 +1,23 @@
 <body>
     <main>
         <div id="upload-box" class="upload-box">
-            <p>Drop .slp file here | Click to select</p>
-            <p id="fileName"></p>
-            <input id="file-input" accept=".slp" type="file">
-            <button id="statsButton">Let's get those stats</button><br>
+            <form id="submit-form" action="/upload" method="POST" enctype="multipart/form-data">
+                <p>Drop .slp file here | Click to select</p>
+                <p id="file-name"></p>
+                <input id="file-input" type="file" accept=".slp" name="match">
+                <button id="stats-button" type="submit" value="submit">Let's get those stats</button>
+            </form>
+            <button id="clear-button">(or clear that's cool too)</button>
         </div>
+        <p id="error">{{error}}</p>
 
         {{!-- <div id="uploaded-file">Ree</div> --}}
 
-        <div id="stat-buttons">
-            <button id="statsButton">Let's get those stats</button><br>
-            <button id="clearButton">(or clear that's cool too)</button>
-        </div>
+        {{!-- <div id="stat-buttons">
+            <button id="stats-button">Let's get those stats</button><br>
+            <button id="clear-button">(or clear that's cool too)</button>
+        </div> --}}
     </main>
 
     <script src="scripts/upload-box.js"></script>
-    {{!--
-    <script src="scripts/script.js"></script> --}}
 </body>

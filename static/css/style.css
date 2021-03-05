@@ -56,6 +56,20 @@ main {
   text-align: center;
 }
 
+#error {
+  padding-top: 75px;
+  margin-top: 80px;
+  color: #21ba45;
+  font-size: 1.5rem;
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
 #upload-box {
   margin: 100px auto 20px auto;
   width: 400px;
@@ -64,25 +78,23 @@ main {
   padding-top: 80px;
 }
 
-#upload-box input {
-  opacity: 0;
-}
-
 #upload-box.dragover {
   border-color: #21ba45;
   color: #ccc;
 }
 
-#statsButton {
+#stats-button {
   border: medium none;
   width: 400px;
+  margin-top: 75px;
+  margin-left: -3px;
   color: #fff;
   background-color: #ccc;
   padding: 1.25rem 0;
   cursor: auto;
 }
 
-#clearButton {
+#clear-button {
   background: none;
   border: none;
   margin: 0;
@@ -92,6 +104,6 @@ main {
   font-size: 0.75rem;
 }
 
-#clearButton:hover {
+#clear-button:hover {
   color: #ccc;
 }
