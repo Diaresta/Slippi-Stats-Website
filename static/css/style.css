@@ -107,3 +107,43 @@ main {
 #clear-button:hover {
   color: #ccc;
 }
+
+#stats-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+#stats-container h2 {
+  font-weight: 900;
+  text-decoration: underline;
+}
+
+#stats-container li {
+  list-style: none;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+#stat-titles {
+  padding-top: 80px;
+}
+
+#stat-titles p {
+  font-size: 1.2rem;
+}
+
+#stat-titles h1 {
+  font-weight: 900;
+}
+
+#stat-titles ul {
+  padding-top: 85px;
+}
+
+.character-image {
+  height: 400px;
+}
+
+#stage-img {
+  height: 150px;
+}
