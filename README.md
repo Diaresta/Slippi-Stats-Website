@@ -13,6 +13,7 @@ Possible names:
 - [ ] Change xhr request to fetch()
 - [ ] Style Stats Page
 - [ ] JS for stats page
+- [ ] Require.js or Browserify for stats js file
 
 # About
 
