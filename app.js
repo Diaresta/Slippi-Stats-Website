@@ -72,7 +72,9 @@ app.post('/upload', (req, res) => {
           error: 'No File Selected!',
         });
       } else {
-        res.render('match-upload', {});
+        res.render('match-upload', {
+          title: 'Shine: Slippi Stats Parser',
+        });
       }
     }
   });
