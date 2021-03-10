@@ -100,4 +100,4 @@ const STATS_BUTTON = document.getElementById('stats-button');
 //   }).catch(console.error);
 // });
 
-uploadStyling();
+// uploadStyling();

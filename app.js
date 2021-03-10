@@ -2,9 +2,10 @@
 const express = require('express');
 const app = express();
 const multer = require('multer');
-// const bodyParser = require('body-parser');
 const path = require('path');
 const exphbs = require('express-handlebars');
+const fs = require('fs');
+const { default: SlippiGame } = require('@slippi/slippi-js');
 const PORT = process.env.PORT || 3000;
 
 // Multer Storage Engine
@@ -30,14 +31,18 @@ function checkFileType(file, cb) {
   const filetypes = /slp/;
   // Check Extension
   const extname = filetypes.test(path.extname(file.originalname).toLowerCase());
-  // Check mime Type
-  // const mimetype = filetypes.test(file.mimetype);
 
   if (extname) {
     return cb(null, true);
   } else {
     cb('Slippi Files Only!');
   }
+}
+
+// Output file as JSON
+function writeToFile(output) {
+  fs.writeFileSync('public/uploads/output.json', JSON.stringify(output));
+  console.log('Finished writting stats to output.json!');
 }
 
 // Static Files
@@ -75,6 +80,14 @@ app.post('/upload', (req, res) => {
         res.render('match-upload', {
           title: 'Shine: Slippi Stats Parser',
         });
+        const game = new SlippiGame('./public/uploads/match.slp');
+        const settings = game.getSettings();
+        const metadata = game.getMetadata();
+        const stats = game.getStats();
+        const frames = game.getFrames();
+        const output = [];
+        output.push(settings, metadata, stats);
+        writeToFile(output);
       }
     }
   });
