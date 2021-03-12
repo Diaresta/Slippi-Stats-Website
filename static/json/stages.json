@@ -1,0 +1,204 @@
+[
+  {
+    "id": 2,
+    "name": "Fountain of Dreams",
+    "stage_img": "https://ssb.wiki.gallery/images/3/32/DREAM-NRML-SSBM.png",
+    "meta": true
+  },
+
+  {
+    "id": 3,
+    "name": "Pokémon Stadium",
+    "stage_img": "https://ssb.wiki.gallery/images/8/8a/PSTAD-NRML1-SSBM.png",
+    "meta": true
+  },
+
+  {
+    "id": 4,
+    "name": "Princess Peach's Castle",
+    "stage_img": "https://ssb.wiki.gallery/images/a/aa/CASTL-NRML1-SSBM.jpg",
+    "meta": false
+  },
+
+  {
+    "id": 5,
+    "name": "Kongo Jungle",
+    "stage_img": "https://ssb.wiki.gallery/images/3/36/KONGO-NRML-SSBM.jpg",
+    "meta": false
+  },
+
+  {
+    "id": 6,
+    "name": "Brinstar",
+    "stage_img": "https://ssb.wiki.gallery/images/e/e4/ZEBES-NRML-SSBM.jpg",
+    "meta": false
+  },
+
+  {
+    "id": 7,
+    "name": "Corneria",
+    "stage_img": "https://ssb.wiki.gallery/images/9/95/STRFX-NRML-SSBM.jpg",
+    "meta": false
+  },
+
+  {
+    "id": 8,
+    "name": "Yoshi's Story",
+    "stage_img": "https://ssb.wiki.gallery/images/1/1a/Yoshi%27sStory.PNG",
+    "meta": true
+  },
+
+  {
+    "id": 9,
+    "name": "Onett",
+    "stage_img": "https://ssb.wiki.gallery/images/6/66/ONETT-NRML-SSBM.jpg",
+    "meta": false
+  },
+
+  {
+    "id": 10,
+    "name": "Mute City",
+    "stage_img": "https://ssb.wiki.gallery/images/9/9a/MuteCity.jpg",
+    "meta": false
+  },
+
+  {
+    "id": 11,
+    "name": "Rainbow Cruise",
+    "stage_img": "https://ssb.wiki.gallery/images/3/3a/RNBOW-NRML1-SSBM.png",
+    "meta": false
+  },
+
+  {
+    "id": 12,
+    "name": "Jungle Japes",
+    "stage_img": "https://ssb.wiki.gallery/images/7/7f/JAPES-NRML-SSBM.png",
+    "meta": false
+  },
+
+  {
+    "id": 13,
+    "name": "Great Bay",
+    "stage_img": "https://ssb.wiki.gallery/images/8/80/GTBAY-NRML-SSBM.jpg",
+    "meta": false
+  },
+
+  {
+    "id": 14,
+    "name": "Temple",
+    "stage_img": "https://ssb.wiki.gallery/images/b/b8/Hyrule_Temple_SSBM.png",
+    "meta": false
+  },
+
+  {
+    "id": 15,
+    "name": "Brinstar Depths",
+    "stage_img": "https://ssb.wiki.gallery/images/a/a1/Brinstardepths.jpg",
+    "meta": false
+  },
+
+  {
+    "id": 16,
+    "name": "Yoshi's Island",
+    "stage_img": "https://ssb.wiki.gallery/images/d/d1/YoshisIslandSSBM.jpg",
+    "meta": false
+  },
+
+  {
+    "id": 17,
+    "name": "Green Greens",
+    "stage_img": "https://ssb.wiki.gallery/images/6/60/GREEN-NRML-SSBM.png",
+    "meta": false
+  },
+
+  {
+    "id": 18,
+    "name": "Fourside",
+    "stage_img": "https://ssb.wiki.gallery/images/6/66/Fourside_Melee.png",
+    "meta": false
+  },
+
+  {
+    "id": 19,
+    "name": "Mushroom Kingdom",
+    "stage_img": "https://ssb.wiki.gallery/images/b/b5/Mushroom_Kingdom_I_Melee.png",
+    "meta": false
+  },
+
+  {
+    "id": 20,
+    "name": "Mushroom Kingdom II",
+    "stage_img": "https://ssb.wiki.gallery/images/e/e7/MKII-NRML-SSBM.png",
+    "meta": false
+  },
+
+  {
+    "id": 22,
+    "name": "Venom",
+    "stage_img": "https://www.ssbwiki.com/Venom#/media/File:VENOM-NRML1-SSBM.png",
+    "meta": false
+  },
+
+  {
+    "id": 23,
+    "name": "Poké Floats",
+    "stage_img": "https://ssb.wiki.gallery/images/8/8e/PokeFloats.jpg",
+    "meta": false
+  },
+
+  {
+    "id": 24,
+    "name": "Big Blue",
+    "stage_img": "https://ssb.wiki.gallery/images/4/43/BBLUE-NRML-SSBM.jpg",
+    "meta": false
+  },
+
+  {
+    "id": 25,
+    "name": "Icicle Mountain",
+    "stage_img": "https://ssb.wiki.gallery/images/f/f3/IcicleMountain.jpg",
+    "meta": false
+  },
+
+  {
+    "id": 27,
+    "name": "Flat Zone",
+    "stage_img": "https://ssb.wiki.gallery/images/d/d0/Flatzone_copy.jpg",
+    "meta": false
+  },
+
+  {
+    "id": 28,
+    "name": "Dream Land",
+    "stage_img": "https://ssb.wiki.gallery/images/2/28/OLDDL-NRML-SSBM.jpg",
+    "meta": true
+  },
+
+  {
+    "id": 29,
+    "name": "Yoshi's Island",
+    "stage_img": "https://ssb.wiki.gallery/images/e/e2/Yoshi%27s_Island_Melee.png",
+    "meta": false
+  },
+
+  {
+    "id": 30,
+    "name": "Kongo Jungle",
+    "stage_img": "https://ssb.wiki.gallery/images/5/5e/OLDKJ-NRML-SSBM.png",
+    "meta": false
+  },
+
+  {
+    "id": 31,
+    "name": "Battlefield",
+    "stage_img": "https://ssb.wiki.gallery/images/d/de/Battlefieldssbm.jpg",
+    "meta": true
+  },
+
+  {
+    "id": 32,
+    "name": "Final Destination",
+    "stage_img": "https://ssb.wiki.gallery/images/0/03/Final_Destination_Melee.png",
+    "meta": true
+  }
+]
