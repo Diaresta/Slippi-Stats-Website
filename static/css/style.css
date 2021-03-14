@@ -179,6 +179,10 @@ main {
   height: 400px;
 }
 
+.p2 {
+  transform: scaleX(-1);
+}
+
 .fa-crown {
   font-size: 1.25rem;
 }
