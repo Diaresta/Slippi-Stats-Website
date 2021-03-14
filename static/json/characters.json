@@ -1,462 +1,481 @@
 [
-    {
-        "id": 0,
-        "name":  "Captain Falcon",
-        "colors": {
-            "0": "/images/character-images/falcon (0).png",
-            "1": "/images/character-images/falcon (1).png",
-            "2": "/images/character-images/falcon (2).png",
-            "3": "/images/character-images/falcon (3).png",
-            "4": "/images/character-images/falcon (4).png",
-            "5": "/images/character-images/falcon (5).png"
-        },
-        "stocks": {
-            "0": ,
-            "1": ,
-            "2": ,
-            "3": 
-        }
+  {
+    "id": 0,
+    "name": "Captain Falcon",
+    "colors": {
+      "0": "/images/character-images/falcon/character/falcon (0).png",
+      "1": "/images/character-images/falcon/character/falcon (1).png",
+      "2": "/images/character-images/falcon/character/falcon (2).png",
+      "3": "/images/character-images/falcon/character/falcon (3).png",
+      "4": "/images/character-images/falcon/character/falcon (4).png",
+      "5": "/images/character-images/falcon/character/falcon (5).png"
     },
-
-    {
-        "id": 1,
-        "name":  "Donkey Kong",
-        "colors": {
-            "0": "/images/character-images/dk (0).png",
-            "1": "/images/character-images/dk (1).png",
-            "2": "/images/character-images/dk (2).png",
-            "3": "/images/character-images/dk (3).png",
-            "4": "/images/character-images/dk (4).png"
-        },
-        "stocks": {
-            "0": ,
-            "1": ,
-            "2": ,
-            "3": 
-        }
-    },
-
-    {
-        "id": 2,
-        "name":  "Fox",
-        "colors": {
-            "0": "/images/character-images/fox (0).png",
-            "1": "/images/character-images/fox (1).png",
-            "2": "/images/character-images/fox (2).png",
-            "3": "/images/character-images/fox (3).png"
-        },
-        "stocks": {
-            "0": ,
-            "1": ,
-            "2": ,
-            "3": 
-        }
-    },
-
-    {
-        "id": 3,
-        "name":  "Mr. Game & Watch",
-        "colors": {
-            "0": "/images/character-images/g&w (0).png",
-            "1": "/images/character-images/g&w (1).png",
-            "2": "/images/character-images/g&w (2).png",
-            "3": "/images/character-images/g&w (3).png"
-        },
-        "stocks": {
-            "0": ,
-            "1": ,
-            "2": ,
-            "3": 
-        }
-    },
-
-    {
-        "id": 4,
-        "name":  "Kirby",
-        "colors": {
-            "0": "/images/character-images/kirby (0).png",
-            "1": "/images/character-images/kirby (1).png",
-            "2": "/images/character-images/kirby (2).png",
-            "3": "/images/character-images/kirby (3).png",
-            "4": "/images/character-images/kirby (4).png",
-            "5": "/images/character-images/kirby (5).png"
-        },
-        "stocks": {
-            "0": ,
-            "1": ,
-            "2": ,
-            "3": 
-        }
-    },
-
-    {
-        "id": 5,
-        "name":  "Bowser",
-        "colors": {
-            "0": "/images/character-images/bowser (0).png",
-            "1": "/images/character-images/bowser (1).png",
-            "2": "/images/character-images/bowser (2).png",
-            "3": "/images/character-images/bowser (3).png"
-        },
-        "stocks": {
-            "0": ,
-            "1": ,
-            "2": ,
-            "3": 
-        }
-    },
-
-    {
-        "id": 6,
-        "name":  "Link",
-        "colors": {
-            "0": "/images/character-images/link (1).png",
-            "1": "/images/character-images/link (2).png",
-            "2": "/images/character-images/link (3).png",
-            "3": "/images/character-images/link (4).png",
-            "4": "/images/character-images/link (5).png"
-        },
-        "stocks": {
-            "0": ,
-            "1": ,
-            "2": ,
-            "3": 
-        }
-    },
-
-    {
-        "id": 7,
-        "name":  "Luigi",
-        "colors": {
-            "0": "/images/character-images/luigi (1).png",
-            "1": "/images/character-images/luigi (2).png",
-            "2": "/images/character-images/luigi (3).png",
-            "3": "/images/character-images/luigi (4).png"
-        },
-        "stocks": {
-            "0": ,
-            "1": ,
-            "2": ,
-            "3": 
-        }
-    },
-
-    {
-        "id": 8,
-        "name":  "Mario",
-        "colors": {
-            "0": "/images/character-images/mario (1).png",
-            "1": "/images/character-images/mario (2).png",
-            "2": "/images/character-images/mario (3).png",
-            "3": "/images/character-images/mario (4).png",
-            "4": "/images/character-images/mario (5).png"
-        },
-        "stocks": {
-            "0": ,
-            "1": ,
-            "2": ,
-            "3": 
-        }
-    },
-
-    {
-        "id": 9,
-        "name":  "Marth",
-        "colors": {
-            "0": "/images/character-images/marth (1).png",
-            "1": "/images/character-images/marth (2).png",
-            "2": "/images/character-images/marth (3).png",
-            "3": "/images/character-images/marth (4).png",
-            "4": "/images/character-images/marth (5).png"
-        },
-        "stocks": {
-            "0": ,
-            "1": ,
-            "2": ,
-            "3": 
-        }
-    },
-
-    {
-        "id": 10,
-        "name":  "Mewtwo",
-        "colors": {
-            "0": "/images/character-images/mewtwo (1).png",
-            "1": "/images/character-images/mewtwo (2).png",
-            "2": "/images/character-images/mewtwo (3).png",
-            "3": "/images/character-images/mewtwo (4).png"
-        },
-        "stocks": {
-            "0": ,
-            "1": ,
-            "2": ,
-            "3": 
-        }
-    },
-
-    {
-        "id": 11,
-        "name":  "Ness",
-        "colors": {
-            "0": "/images/character-images/ness (1).png",
-            "1": "/images/character-images/ness (2).png",
-            "2": "/images/character-images/ness (3).png",
-            "3": "/images/character-images/ness (4).png"
-        },
-        "stocks": {
-            "0": ,
-            "1": ,
-            "2": ,
-            "3": 
-        }
-    },
-
-    {
-        "id": 12,
-        "name":  "Peach",
-        "colors": {
-            "0": "/images/character-images/peach (1).png",
-            "1": "/images/character-images/peach (2).png",
-            "2": "/images/character-images/peach (3).png",
-            "3": "/images/character-images/peach (4).png",
-            "4": "/images/character-images/peach (5).png"
-        },
-        "stocks": {
-            "0": ,
-            "1": ,
-            "2": ,
-            "3": 
-        }
-    },
-
-    {
-        "id": 13,
-        "name":  "Pikachu",
-        "colors": {
-            "0": "/images/character-images/pikachu (1).png",
-            "1": "/images/character-images/pikachu (2).png",
-            "2": "/images/character-images/pikachu (3).png",
-            "3": "/images/character-images/pikachu (4).png"
-        },
-        "stocks": {
-            "0": ,
-            "1": ,
-            "2": ,
-            "3": 
-        }
-    },
-
-    {
-        "id": 14,
-        "name":  "Ice Climbers",
-        "colors": {
-            "0": "/images/character-images/IC (0).png",
-            "1": "/images/character-images/IC (1).png",
-            "2": "/images/character-images/IC (2).png",
-            "3": "/images/character-images/IC (3).png"
-        },
-        "stocks": {
-            "0": ,
-            "1": ,
-            "2": ,
-            "3": 
-        }
-    },
-
-    {
-        "id": 15,
-        "name":  "Jigglypuff",
-        "colors": {
-            "0": "/images/character-images/puff (1).png",
-            "1": "/images/character-images/puff (2).png",
-            "2": "/images/character-images/puff (3).png",
-            "3": "/images/character-images/puff (4).png",
-            "4": "/images/character-images/puff (5).png"
-        },
-        "stocks": {
-            "0": ,
-            "1": ,
-            "2": ,
-            "3": 
-        }
-    },
-
-    {
-        "id": 16,
-        "name":  "Samus",
-        "colors": {
-            "0": "/images/character-images/samus (1).png",
-            "1": "/images/character-images/samus (2).png",
-            "2": "/images/character-images/samus (3).png",
-            "3": "/images/character-images/samus (4).png",
-            "4": "/images/character-images/samus (5).png"
-        },
-        "stocks": {
-            "0": ,
-            "1": ,
-            "2": ,
-            "3": 
-        }
-    },
-
-    {
-        "id": 17,
-        "name":  "Yoshi",
-        "colors": {
-            "0": "/images/character-images/yoshi (1).png",
-            "1": "/images/character-images/yoshi (2).png",
-            "2": "/images/character-images/yoshi (3).png",
-            "3": "/images/character-images/yoshi (4).png",
-            "4": "/images/character-images/yoshi (5).png",
-            "5": "/images/character-images/yoshi (6).png"
-        },
-        "stocks": {
-            "0": ,
-            "1": ,
-            "2": ,
-            "3": 
-        }
-    },
-
-    {
-        "id": 18,
-        "name":  "Zelda",
-        "colors": {
-            "0": "/images/character-images/zelda (1).png",
-            "1": "/images/character-images/zelda (2).png",
-            "2": "/images/character-images/zelda (3).png",
-            "3": "/images/character-images/zelda (4).png",
-            "4": "/images/character-images/zelda (5).png"
-        },
-        "stocks": {
-            "0": ,
-            "1": ,
-            "2": ,
-            "3": 
-        }
-    },
-
-    {
-        "id": 19,
-        "name":  "Sheik",
-        "colors": {
-            "0": "/images/character-images/sheik (1).png",
-            "1": "/images/character-images/sheik (2).png",
-            "2": "/images/character-images/sheik (3).png",
-            "3": "/images/character-images/sheik (4).png",
-            "4": "/images/character-images/sheik (5).png"
-        },
-        "stocks": {
-            "0": ,
-            "1": ,
-            "2": ,
-            "3": 
-        }
-    },
-
-    {
-        "id": 20,
-        "name":  "Falco",
-        "colors": {
-            "0": "/images/character-images/falco (0).png",
-            "1": "/images/character-images/falco (1).png",
-            "2": "/images/character-images/falco (2).png",
-            "3": "/images/character-images/falco (3).png"
-        },
-        "stocks": {
-            "0": ,
-            "1": ,
-            "2": ,
-            "3": 
-        }
-    },
-
-    {
-        "id": 21,
-        "name":  "Young Link",
-        "colors": {
-            "0": "/images/character-images/young link (1).png",
-            "1": "/images/character-images/young link (2).png",
-            "2": "/images/character-images/young link (3).png",
-            "3": "/images/character-images/young link (4).png",
-            "4": "/images/character-images/young link (5).png"
-        },
-        "stocks": {
-            "0": ,
-            "1": ,
-            "2": ,
-            "3": 
-        }
-    },
-
-    {
-        "id": 22,
-        "name":  "Dr. Mario",
-        "colors": {
-            "0": "/images/character-images/doc (0).png",
-            "1": "/images/character-images/doc (1).png",
-            "2": "/images/character-images/doc (2).png",
-            "3": "/images/character-images/doc (3).png",
-            "4": "/images/character-images/doc (4).png"
-        },
-        "stocks": {
-            "0": ,
-            "1": ,
-            "2": ,
-            "3": 
-        }
-    },
-
-    {
-        "id": 23,
-        "name":  "Roy",
-        "colors": {
-            "0": "/images/character-images/roy (0).png",
-            "1": "/images/character-images/roy (1).png",
-            "2": "/images/character-images/roy (2).png",
-            "3": "/images/character-images/roy (3).png",
-            "4": "/images/character-images/roy (4).png"
-        },
-        "stocks": {
-            "0": ,
-            "1": ,
-            "2": ,
-            "3": 
-        }
-    },
-
-    {
-        "id": 24,
-        "name":  "Pichu",
-        "colors": {
-            "0": "/images/character-images/pichu (1).png",
-            "1": "/images/character-images/pichu (2).png",
-            "2": "/images/character-images/pichu (3).png",
-            "3": "/images/character-images/pichu (4).png"
-        },
-        "stocks": {
-            "0": ,
-            "1": ,
-            "2": ,
-            "3": 
-        }
-    },
-
-    {
-        "id": 25,
-        "name":  "Ganondorf",
-        "colors": {
-            "0": "/images/character-images/ganon (0).png",
-            "1": "/images/character-images/ganon (1).png",
-            "2": "/images/character-images/ganon (2).png",
-            "3": "/images/character-images/ganon (3).png",
-            "4": "/images/character-images/ganon (4).png"
-        },
-        "stocks": {
-            "0": ,
-            "1": ,
-            "2": ,
-            "3": 
-        }
+    "stocks": {
+      "0": "/images/character-images/falcon/stock/falcon (0).png",
+      "1": "/images/character-images/falcon/stock/falcon (1).png",
+      "2": "/images/character-images/falcon/stock/falcon (2).png",
+      "3": "/images/character-images/falcon/stock/falcon (3).png",
+      "4": "/images/character-images/falcon/stock/falcon (4).png",
+      "5": "/images/character-images/falcon/stock/falcon (5).png"
     }
+  },
+
+  {
+    "id": 1,
+    "name": "Donkey Kong",
+    "colors": {
+      "0": "/images/character-images/dk/character/dk (0).png",
+      "1": "/images/character-images/dk/character/dk (1).png",
+      "2": "/images/character-images/dk/character/dk (2).png",
+      "3": "/images/character-images/dk/character/dk (3).png",
+      "4": "/images/character-images/dk/character/dk (4).png"
+    },
+    "stocks": {
+      "0": "/images/character-images/dk/stock/dk (0).png",
+      "1": "/images/character-images/dk/stock/dk (1).png",
+      "2": "/images/character-images/dk/stock/dk (2).png",
+      "3": "/images/character-images/dk/stock/dk (3).png",
+      "4": "/images/character-images/dk/stock/dk (4).png"
+    }
+  },
+
+  {
+    "id": 2,
+    "name": "Fox",
+    "colors": {
+      "0": "/images/character-images/fox/character/fox (0).png",
+      "1": "/images/character-images/fox/character/fox (1).png",
+      "2": "/images/character-images/fox/character/fox (2).png",
+      "3": "/images/character-images/fox/character/fox (3).png"
+    },
+    "stocks": {
+      "0": "/images/character-images/fox/stock/fox (0).png",
+      "1": "/images/character-images/fox/stock/fox (1).png",
+      "2": "/images/character-images/fox/stock/fox (2).png",
+      "3": "/images/character-images/fox/stock/fox (3).png"
+    }
+  },
+
+  {
+    "id": 3,
+    "name": "Mr. Game & Watch",
+    "colors": {
+      "0": "/images/character-images/g&w/character/g&w (0).png",
+      "1": "/images/character-images/g&w/character/g&w (1).png",
+      "2": "/images/character-images/g&w/character/g&w (2).png",
+      "3": "/images/character-images/g&w/character/g&w (3).png"
+    },
+    "stocks": {
+      "0": "/images/character-images/g&w/stock/g&w (0).png",
+      "1": "/images/character-images/g&w/stock/g&w (1).png",
+      "2": "/images/character-images/g&w/stock/g&w (2).png",
+      "3": "/images/character-images/g&w/stock/g&w (3).png"
+    }
+  },
+
+  {
+    "id": 4,
+    "name": "Kirby",
+    "colors": {
+      "0": "/images/character-images/kirby/character/kirby (0).png",
+      "1": "/images/character-images/kirby/character/kirby (1).png",
+      "2": "/images/character-images/kirby/character/kirby (2).png",
+      "3": "/images/character-images/kirby/character/kirby (3).png",
+      "4": "/images/character-images/kirby/character/kirby (4).png",
+      "5": "/images/character-images/kirby/character/kirby (5).png"
+    },
+    "stocks": {
+      "0": "/images/character-images/kirby/stock/kirby (0).png",
+      "1": "/images/character-images/kirby/stock/kirby (1).png",
+      "2": "/images/character-images/kirby/stock/kirby (2).png",
+      "3": "/images/character-images/kirby/stock/kirby (3).png",
+      "4": "/images/character-images/kirby/stock/kirby (4).png",
+      "5": "/images/character-images/kirby/stock/kirby (5).png"
+    }
+  },
+
+  {
+    "id": 5,
+    "name": "Bowser",
+    "colors": {
+      "0": "/images/character-images/bowser/character/bowser (0).png",
+      "1": "/images/character-images/bowser/character/bowser (1).png",
+      "2": "/images/character-images/bowser/character/bowser (2).png",
+      "3": "/images/character-images/bowser/character/bowser (3).png"
+    },
+    "stocks": {
+      "0": "/images/character-images/bowser/stock/bowser (0).png",
+      "1": "/images/character-images/bowser/stock/bowser (1).png",
+      "2": "/images/character-images/bowser/stock/bowser (2).png",
+      "3": "/images/character-images/bowser/stock/bowser (3).png"
+    }
+  },
+
+  {
+    "id": 6,
+    "name": "Link",
+    "colors": {
+      "0": "/images/character-images/link/character/link (0).png",
+      "1": "/images/character-images/link/character/link (1).png",
+      "2": "/images/character-images/link/character/link (2).png",
+      "3": "/images/character-images/link/character/link (3).png",
+      "4": "/images/character-images/link/character/link (4).png"
+    },
+    "stocks": {
+      "0": "/images/character-images/link/stock/link (0).png",
+      "1": "/images/character-images/link/stock/link (1).png",
+      "2": "/images/character-images/link/stock/link (2).png",
+      "3": "/images/character-images/link/stock/link (3).png",
+      "4": "/images/character-images/link/stock/link (4).png"
+    }
+  },
+
+  {
+    "id": 7,
+    "name": "Luigi",
+    "colors": {
+      "0": "/images/character-images/luigi/character/luigi (0).png",
+      "1": "/images/character-images/luigi/character/luigi (1).png",
+      "2": "/images/character-images/luigi/character/luigi (2).png",
+      "3": "/images/character-images/luigi/character/luigi (3).png"
+    },
+    "stocks": {
+      "0": "/images/character-images/luigi/stock/luigi (0).png",
+      "1": "/images/character-images/luigi/stock/luigi (1).png",
+      "2": "/images/character-images/luigi/stock/luigi (2).png",
+      "3": "/images/character-images/luigi/stock/luigi (3).png"
+    }
+  },
+
+  {
+    "id": 8,
+    "name": "Mario",
+    "colors": {
+      "0": "/images/character-images/mario/character/mario (0).png",
+      "1": "/images/character-images/mario/character/mario (1).png",
+      "2": "/images/character-images/mario/character/mario (2).png",
+      "3": "/images/character-images/mario/character/mario (3).png",
+      "4": "/images/character-images/mario/character/mario (4).png"
+    },
+    "stocks": {
+      "0": "/images/character-images/mario/stock/mario (0).png",
+      "1": "/images/character-images/mario/stock/mario (1).png",
+      "2": "/images/character-images/mario/stock/mario (2).png",
+      "3": "/images/character-images/mario/stock/mario (3).png",
+      "4": "/images/character-images/mario/stock/mario (4).png"
+    }
+  },
+
+  {
+    "id": 9,
+    "name": "Marth",
+    "colors": {
+      "0": "/images/character-images/marth/character/marth (0).png",
+      "1": "/images/character-images/marth/character/marth (1).png",
+      "2": "/images/character-images/marth/character/marth (2).png",
+      "3": "/images/character-images/marth/character/marth (3).png",
+      "4": "/images/character-images/marth/character/marth (4).png"
+    },
+    "stocks": {
+      "0": "/images/character-images/marth/stock/marth (0).png",
+      "1": "/images/character-images/marth/stock/marth (1).png",
+      "2": "/images/character-images/marth/stock/marth (2).png",
+      "3": "/images/character-images/marth/stock/marth (3).png",
+      "4": "/images/character-images/marth/stock/marth (4).png"
+    }
+  },
+
+  {
+    "id": 10,
+    "name": "Mewtwo",
+    "colors": {
+      "0": "/images/character-images/mewtwo/character/mewtwo (0).png",
+      "1": "/images/character-images/mewtwo/character/mewtwo (1).png",
+      "2": "/images/character-images/mewtwo/character/mewtwo (2).png",
+      "3": "/images/character-images/mewtwo/character/mewtwo (3).png"
+    },
+    "stocks": {
+      "0": "/images/character-images/mewtwo/stock/mewtwo (0).png",
+      "1": "/images/character-images/mewtwo/stock/mewtwo (1).png",
+      "2": "/images/character-images/mewtwo/stock/mewtwo (2).png",
+      "3": "/images/character-images/mewtwo/stock/mewtwo (3).png"
+    }
+  },
+
+  {
+    "id": 11,
+    "name": "Ness",
+    "colors": {
+      "0": "/images/character-images/ness/character/ness (0).png",
+      "1": "/images/character-images/ness/character/ness (1).png",
+      "2": "/images/character-images/ness/character/ness (2).png",
+      "3": "/images/character-images/ness/character/ness (3).png"
+    },
+    "stocks": {
+      "0": "/images/character-images/ness/stock/ness (0).png",
+      "1": "/images/character-images/ness/stock/ness (1).png",
+      "2": "/images/character-images/ness/stock/ness (2).png",
+      "3": "/images/character-images/ness/stock/ness (3).png"
+    }
+  },
+
+  {
+    "id": 12,
+    "name": "Peach",
+    "colors": {
+      "0": "/images/character-images/peach/character/peach (0).png",
+      "1": "/images/character-images/peach/character/peach (1).png",
+      "2": "/images/character-images/peach/character/peach (2).png",
+      "3": "/images/character-images/peach/character/peach (3).png",
+      "4": "/images/character-images/peach/character/peach (4).png"
+    },
+    "stocks": {
+      "0": "/images/character-images/peach/stock/peach (0).png",
+      "1": "/images/character-images/peach/stock/peach (1).png",
+      "2": "/images/character-images/peach/stock/peach (2).png",
+      "3": "/images/character-images/peach/stock/peach (3).png",
+      "4": "/images/character-images/peach/stock/peach (4).png"
+    }
+  },
+
+  {
+    "id": 13,
+    "name": "Pikachu",
+    "colors": {
+      "0": "/images/character-images/pikachu/character/pikachu (0).png",
+      "1": "/images/character-images/pikachu/character/pikachu (1).png",
+      "2": "/images/character-images/pikachu/character/pikachu (2).png",
+      "3": "/images/character-images/pikachu/character/pikachu (3).png"
+    },
+    "stocks": {
+      "0": "/images/character-images/pikachu/stock/pikachu (0).png",
+      "1": "/images/character-images/pikachu/stock/pikachu (1).png",
+      "2": "/images/character-images/pikachu/stock/pikachu (2).png",
+      "3": "/images/character-images/pikachu/stock/pikachu (3).png"
+    }
+  },
+
+  {
+    "id": 14,
+    "name": "Ice Climbers",
+    "colors": {
+      "0": "/images/character-images/IC/character/IC (0).png",
+      "1": "/images/character-images/IC/character/IC (1).png",
+      "2": "/images/character-images/IC/character/IC (2).png",
+      "3": "/images/character-images/IC/character/IC (3).png"
+    },
+    "stocks": {
+      "0": "/images/character-images/IC/stock/IC (0).png",
+      "1": "/images/character-images/IC/stock/IC (1).png",
+      "2": "/images/character-images/IC/stock/IC (2).png",
+      "3": "/images/character-images/IC/stock/IC (3).png"
+    }
+  },
+
+  {
+    "id": 15,
+    "name": "Jigglypuff",
+    "colors": {
+      "0": "/images/character-images/puff/character/puff (0).png",
+      "1": "/images/character-images/puff/character/puff (1).png",
+      "2": "/images/character-images/puff/character/puff (2).png",
+      "3": "/images/character-images/puff/character/puff (3).png",
+      "4": "/images/character-images/puff/character/puff (4).png"
+    },
+    "stocks": {
+      "0": "/images/character-images/puff/stock/puff (0).png",
+      "1": "/images/character-images/puff/stock/puff (1).png",
+      "2": "/images/character-images/puff/stock/puff (2).png",
+      "3": "/images/character-images/puff/stock/puff (3).png",
+      "4": "/images/character-images/puff/stock/puff (4).png"
+    }
+  },
+
+  {
+    "id": 16,
+    "name": "Samus",
+    "colors": {
+      "0": "/images/character-images/samus/character/samus (0).png",
+      "1": "/images/character-images/samus/character/samus (1).png",
+      "2": "/images/character-images/samus/character/samus (2).png",
+      "3": "/images/character-images/samus/character/samus (3).png",
+      "4": "/images/character-images/samus/character/samus (4).png"
+    },
+    "stocks": {
+      "0": "/images/character-images/samus/stock/samus (0).png",
+      "1": "/images/character-images/samus/stock/samus (1).png",
+      "2": "/images/character-images/samus/stock/samus (2).png",
+      "3": "/images/character-images/samus/stock/samus (3).png",
+      "4": "/images/character-images/samus/stock/samus (4).png"
+    }
+  },
+
+  {
+    "id": 17,
+    "name": "Yoshi",
+    "colors": {
+      "0": "/images/character-images/yoshi/character/yoshi (0).png",
+      "1": "/images/character-images/yoshi/character/yoshi (1).png",
+      "2": "/images/character-images/yoshi/character/yoshi (2).png",
+      "3": "/images/character-images/yoshi/character/yoshi (3).png",
+      "4": "/images/character-images/yoshi/character/yoshi (4).png",
+      "5": "/images/character-images/yoshi/character/yoshi (5).png"
+    },
+    "stocks": {
+      "0": "/images/character-images/yoshi/stock/yoshi (0).png",
+      "1": "/images/character-images/yoshi/stock/yoshi (1).png",
+      "2": "/images/character-images/yoshi/stock/yoshi (2).png",
+      "3": "/images/character-images/yoshi/stock/yoshi (3).png",
+      "4": "/images/character-images/yoshi/stock/yoshi (4).png",
+      "5": "/images/character-images/yoshi/stock/yoshi (5).png"
+    }
+  },
+
+  {
+    "id": 18,
+    "name": "Zelda",
+    "colors": {
+      "0": "/images/character-images/zelda/character/zelda (0).png",
+      "1": "/images/character-images/zelda/character/zelda (1).png",
+      "2": "/images/character-images/zelda/character/zelda (2).png",
+      "3": "/images/character-images/zelda/character/zelda (3).png",
+      "4": "/images/character-images/zelda/character/zelda (4).png"
+    },
+    "stocks": {
+      "0": "/images/character-images/zelda/stock/zelda (0).png",
+      "1": "/images/character-images/zelda/stock/zelda (1).png",
+      "2": "/images/character-images/zelda/stock/zelda (2).png",
+      "3": "/images/character-images/zelda/stock/zelda (3).png",
+      "4": "/images/character-images/zelda/stock/zelda (4).png"
+    }
+  },
+
+  {
+    "id": 19,
+    "name": "Sheik",
+    "colors": {
+      "0": "/images/character-images/sheik/character/sheik (0).png",
+      "1": "/images/character-images/sheik/character/sheik (1).png",
+      "2": "/images/character-images/sheik/character/sheik (2).png",
+      "3": "/images/character-images/sheik/character/sheik (3).png",
+      "4": "/images/character-images/sheik/character/sheik (4).png"
+    },
+    "stocks": {
+      "0": "/images/character-images/sheik/stock/sheik (0).png",
+      "1": "/images/character-images/sheik/stock/sheik (1).png",
+      "2": "/images/character-images/sheik/stock/sheik (2).png",
+      "3": "/images/character-images/sheik/stock/sheik (3).png",
+      "4": "/images/character-images/sheik/stock/sheik (4).png"
+    }
+  },
+
+  {
+    "id": 20,
+    "name": "Falco",
+    "colors": {
+      "0": "/images/character-images/falcon/character/falcon (0).png",
+      "1": "/images/character-images/falcon/character/falcon (1).png",
+      "2": "/images/character-images/falcon/character/falcon (2).png",
+      "3": "/images/character-images/falcon/character/falcon (3).png"
+    },
+    "stocks": {
+      "0": "/images/character-images/falcon/stock/falcon (0).png",
+      "1": "/images/character-images/falcon/stock/falcon (1).png",
+      "2": "/images/character-images/falcon/stock/falcon (2).png",
+      "3": "/images/character-images/falcon/stock/falcon (3).png"
+    }
+  },
+
+  {
+    "id": 21,
+    "name": "Young Link",
+    "colors": {
+      "0": "/images/character-images/young link/character/young link (0).png",
+      "1": "/images/character-images/young link/character/young link (1).png",
+      "2": "/images/character-images/young link/character/young link (2).png",
+      "3": "/images/character-images/young link/character/young link (3).png",
+      "4": "/images/character-images/young link/character/young link (4).png"
+    },
+    "stocks": {
+      "0": "/images/character-images/young link/stock/young link (0).png",
+      "1": "/images/character-images/young link/stock/young link (1).png",
+      "2": "/images/character-images/young link/stock/young link (2).png",
+      "3": "/images/character-images/young link/stock/young link (3).png",
+      "4": "/images/character-images/young link/stock/young link (4).png"
+    }
+  },
+
+  {
+    "id": 22,
+    "name": "Dr. Mario",
+    "colors": {
+      "0": "/images/character-images/doc/character/doc (0).png",
+      "1": "/images/character-images/doc/character/doc (1).png",
+      "2": "/images/character-images/doc/character/doc (2).png",
+      "3": "/images/character-images/doc/character/doc (3).png",
+      "4": "/images/character-images/doc/character/doc (4).png"
+    },
+    "stocks": {
+      "0": "/images/character-images/doc/stock/doc (0).png",
+      "1": "/images/character-images/doc/stock/doc (1).png",
+      "2": "/images/character-images/doc/stock/doc (2).png",
+      "3": "/images/character-images/doc/stock/doc (3).png",
+      "4": "/images/character-images/doc/stock/doc (4).png"
+    }
+  },
+
+  {
+    "id": 23,
+    "name": "Roy",
+    "colors": {
+      "0": "/images/character-images/roy/character/roy (0).png",
+      "1": "/images/character-images/roy/character/roy (1).png",
+      "2": "/images/character-images/roy/character/roy (2).png",
+      "3": "/images/character-images/roy/character/roy (3).png",
+      "4": "/images/character-images/roy/character/roy (4).png"
+    },
+    "stocks": {
+      "0": "/images/character-images/roy/stock/roy (0).png",
+      "1": "/images/character-images/roy/stock/roy (1).png",
+      "2": "/images/character-images/roy/stock/roy (2).png",
+      "3": "/images/character-images/roy/stock/roy (3).png",
+      "4": "/images/character-images/roy/stock/roy (4).png"
+    }
+  },
+
+  {
+    "id": 24,
+    "name": "Pichu",
+    "colors": {
+      "0": "/images/character-images/pichu/character/pichu (0).png",
+      "1": "/images/character-images/pichu/character/pichu (1).png",
+      "2": "/images/character-images/pichu/character/pichu (2).png",
+      "3": "/images/character-images/pichu/character/pichu (3).png"
+    },
+    "stocks": {
+      "0": "/images/character-images/pichu/stock/pichu (0).png",
+      "1": "/images/character-images/pichu/stock/pichu (1).png",
+      "2": "/images/character-images/pichu/stock/pichu (2).png",
+      "3": "/images/character-images/pichu/stock/pichu (3).png"
+    }
+  },
+
+  {
+    "id": 25,
+    "name": "Ganondorf",
+    "colors": {
+      "0": "/images/character-images/ganon/character/ganon (0).png",
+      "1": "/images/character-images/ganon/character/ganon (1).png",
+      "2": "/images/character-images/ganon/character/ganon (2).png",
+      "3": "/images/character-images/ganon/character/ganon (3).png",
+      "4": "/images/character-images/ganon/character/ganon (4).png"
+    },
+    "stocks": {
+      "0": "/images/character-images/ganon/stock/ganon (0).png",
+      "1": "/images/character-images/ganon/stock/ganon (1).png",
+      "2": "/images/character-images/ganon/stock/ganon (2).png",
+      "3": "/images/character-images/ganon/stock/ganon (3).png",
+      "4": "/images/character-images/ganon/stock/ganon (4).png"
+    }
+  }
 ]
