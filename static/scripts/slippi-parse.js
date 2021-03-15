@@ -666,7 +666,7 @@ function generateOutput(games) {
 
 function writeToFile(output) {
   console.log(util.inspect(output, { depth: 6, colors: true }));
-  fs.writeFileSync('output.json', JSON.stringify(output));
+  fs.writeFileSync('./static/json/stats.json', JSON.stringify(output));
   console.log('Finished writting stats to output.json!');
 }
 

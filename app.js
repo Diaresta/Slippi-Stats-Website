@@ -41,7 +41,7 @@ function checkFileType(file, cb) {
 
 // Output file as JSON
 function writeToFile(output) {
-  fs.writeFileSync('public/uploads/output.json', JSON.stringify(output));
+  fs.writeFileSync('static/json/stats.json', JSON.stringify(output));
   console.log('Finished writting stats to output.json!');
 }
 

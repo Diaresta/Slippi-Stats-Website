@@ -1,0 +1,2341 @@
+[
+  {
+    "slpVersion": "3.7.0",
+    "isTeams": false,
+    "isPAL": false,
+    "stageId": 28,
+    "players": [
+      {
+        "playerIndex": 0,
+        "port": 1,
+        "characterId": 7,
+        "characterColor": 3,
+        "startStocks": 4,
+        "type": 0,
+        "teamId": 0,
+        "controllerFix": "UCF",
+        "nametag": ""
+      },
+      {
+        "playerIndex": 1,
+        "port": 2,
+        "characterId": 2,
+        "characterColor": 0,
+        "startStocks": 4,
+        "type": 0,
+        "teamId": 0,
+        "controllerFix": "UCF",
+        "nametag": ""
+      }
+    ],
+    "scene": 2,
+    "gameMode": 8
+  },
+  {
+    "startAt": "2021-01-06T06:08:46Z",
+    "lastFrame": 15388,
+    "players": {
+      "0": {
+        "names": { "netplay": "STLTH", "code": "STLT#649" },
+        "characters": { "17": 15535 }
+      },
+      "1": {
+        "names": { "netplay": "Diaresta", "code": "DIAR#141" },
+        "characters": { "1": 15535 }
+      }
+    },
+    "playedOn": "dolphin"
+  },
+  {
+    "lastFrame": 15388,
+    "playableFrameCount": 15427,
+    "stocks": [
+      {
+        "playerIndex": 0,
+        "opponentIndex": 1,
+        "startFrame": -123,
+        "endFrame": 4840,
+        "startPercent": 0,
+        "endPercent": 144.75999450683594,
+        "currentPercent": 144.75999450683594,
+        "count": 4,
+        "deathAnimation": 0
+      },
+      {
+        "playerIndex": 1,
+        "opponentIndex": 0,
+        "startFrame": -123,
+        "endFrame": 1745,
+        "startPercent": 0,
+        "endPercent": 107.27999877929688,
+        "currentPercent": 107.27999877929688,
+        "count": 4,
+        "deathAnimation": 0
+      },
+      {
+        "playerIndex": 1,
+        "opponentIndex": 0,
+        "startFrame": 1805,
+        "endFrame": 7418,
+        "startPercent": 0,
+        "endPercent": 125.95657348632812,
+        "currentPercent": 125.95657348632812,
+        "count": 3,
+        "deathAnimation": 4
+      },
+      {
+        "playerIndex": 0,
+        "opponentIndex": 1,
+        "startFrame": 4900,
+        "endFrame": 11034,
+        "startPercent": 0,
+        "endPercent": 125.34001159667969,
+        "currentPercent": 125.34001159667969,
+        "count": 3,
+        "deathAnimation": 0
+      },
+      {
+        "playerIndex": 1,
+        "opponentIndex": 0,
+        "startFrame": 7463,
+        "endFrame": 11770,
+        "startPercent": 0,
+        "endPercent": 156.8000030517578,
+        "currentPercent": 156.8000030517578,
+        "count": 2,
+        "deathAnimation": 1
+      },
+      {
+        "playerIndex": 0,
+        "opponentIndex": 1,
+        "startFrame": 11094,
+        "endFrame": null,
+        "startPercent": 0,
+        "endPercent": null,
+        "currentPercent": 97.3499984741211,
+        "count": 2,
+        "deathAnimation": null
+      },
+      {
+        "playerIndex": 1,
+        "opponentIndex": 0,
+        "startFrame": 11830,
+        "endFrame": 15388,
+        "startPercent": 0,
+        "endPercent": 103.2699966430664,
+        "currentPercent": 103.2699966430664,
+        "count": 1,
+        "deathAnimation": 2
+      }
+    ],
+    "conversions": [
+      {
+        "playerIndex": 1,
+        "opponentIndex": 0,
+        "startFrame": 64,
+        "endFrame": 123,
+        "startPercent": 0,
+        "currentPercent": 9,
+        "endPercent": 9,
+        "moves": [{ "frame": 64, "moveId": 15, "hitCount": 1, "damage": 9 }],
+        "didKill": false,
+        "openingType": "neutral-win"
+      },
+      {
+        "playerIndex": 0,
+        "opponentIndex": 1,
+        "startFrame": 135,
+        "endFrame": 197,
+        "startPercent": 0,
+        "currentPercent": 3,
+        "endPercent": 3,
+        "moves": [{ "frame": 135, "moveId": 2, "hitCount": 1, "damage": 3 }],
+        "didKill": false,
+        "openingType": "neutral-win"
+      },
+      {
+        "playerIndex": 0,
+        "opponentIndex": 1,
+        "startFrame": 326,
+        "endFrame": 430,
+        "startPercent": 3,
+        "currentPercent": 29,
+        "endPercent": 29,
+        "moves": [
+          { "frame": 326, "moveId": 21, "hitCount": 1, "damage": 9 },
+          { "frame": 376, "moveId": 12, "hitCount": 1, "damage": 17 }
+        ],
+        "didKill": false,
+        "openingType": "neutral-win"
+      },
+      {
+        "playerIndex": 1,
+        "opponentIndex": 0,
+        "startFrame": 347,
+        "endFrame": 402,
+        "startPercent": 9,
+        "currentPercent": 19,
+        "endPercent": 19,
+        "moves": [{ "frame": 347, "moveId": 9, "hitCount": 1, "damage": 10 }],
+        "didKill": false,
+        "openingType": "counter-attack"
+      },
+      {
+        "playerIndex": 1,
+        "opponentIndex": 0,
+        "startFrame": 516,
+        "endFrame": 614,
+        "startPercent": 19,
+        "currentPercent": 26,
+        "endPercent": 26,
+        "moves": [
+          { "frame": 516, "moveId": 17, "hitCount": 1, "damage": 2 },
+          { "frame": 534, "moveId": 21, "hitCount": 1, "damage": 5 }
+        ],
+        "didKill": false,
+        "openingType": "neutral-win"
+      },
+      {
+        "playerIndex": 0,
+        "opponentIndex": 1,
+        "startFrame": 711,
+        "endFrame": 870,
+        "startPercent": 29,
+        "currentPercent": 47.36000061035156,
+        "endPercent": 47.36000061035156,
+        "moves": [
+          {
+            "frame": 711,
+            "moveId": 21,
+            "hitCount": 1,
+            "damage": 8.279998779296875
+          },
+          {
+            "frame": 751,
+            "moveId": 21,
+            "hitCount": 1,
+            "damage": 10.080001831054688
+          }
+        ],
+        "didKill": false,
+        "openingType": "neutral-win"
+      },
+      {
+        "playerIndex": 1,
+        "opponentIndex": 0,
+        "startFrame": 831,
+        "endFrame": 1044,
+        "startPercent": 26,
+        "currentPercent": 28,
+        "endPercent": 28,
+        "moves": [{ "frame": 864, "moveId": 54, "hitCount": 1, "damage": 2 }],
+        "didKill": false,
+        "openingType": "counter-attack"
+      },
+      {
+        "playerIndex": 0,
+        "opponentIndex": 1,
+        "startFrame": 958,
+        "endFrame": 1251,
+        "startPercent": 47.36000061035156,
+        "currentPercent": 72.36000061035156,
+        "endPercent": 72.36000061035156,
+        "moves": [
+          { "frame": 958, "moveId": 13, "hitCount": 1, "damage": 15 },
+          { "frame": 1093, "moveId": 7, "hitCount": 1, "damage": 10 }
+        ],
+        "didKill": false,
+        "openingType": "counter-attack"
+      },
+      {
+        "playerIndex": 1,
+        "opponentIndex": 0,
+        "startFrame": 1169,
+        "endFrame": 1410,
+        "startPercent": 28,
+        "currentPercent": 34,
+        "endPercent": 34,
+        "moves": [{ "frame": 1169, "moveId": 50, "hitCount": 1, "damage": 6 }],
+        "didKill": false,
+        "openingType": "counter-attack"
+      },
+      {
+        "playerIndex": 0,
+        "opponentIndex": 1,
+        "startFrame": 1306,
+        "endFrame": 1745,
+        "startPercent": 72.36000061035156,
+        "currentPercent": 107.27999877929688,
+        "endPercent": 107.27999877929688,
+        "moves": [
+          {
+            "frame": 1306,
+            "moveId": 21,
+            "hitCount": 1,
+            "damage": 7.9199981689453125
+          },
+          { "frame": 1380, "moveId": 10, "hitCount": 1, "damage": 14 },
+          { "frame": 1617, "moveId": 14, "hitCount": 1, "damage": 12 }
+        ],
+        "didKill": true,
+        "openingType": "counter-attack"
+      },
+      {
+        "playerIndex": 0,
+        "opponentIndex": 1,
+        "startFrame": 2132,
+        "endFrame": 2222,
+        "startPercent": 0,
+        "currentPercent": 5,
+        "endPercent": 5,
+        "moves": [{ "frame": 2132, "moveId": 19, "hitCount": 1, "damage": 5 }],
+        "didKill": false,
+        "openingType": "neutral-win"
+      },
+      {
+        "playerIndex": 1,
+        "opponentIndex": 0,
+        "startFrame": 2159,
+        "endFrame": 2876,
+        "startPercent": 34,
+        "currentPercent": 89.13999938964844,
+        "endPercent": 89.13999938964844,
+        "moves": [
+          { "frame": 2159, "moveId": 2, "hitCount": 1, "damage": 4 },
+          {
+            "frame": 2198,
+            "moveId": 55,
+            "hitCount": 4,
+            "damage": 7.459999084472656
+          },
+          {
+            "frame": 2282,
+            "moveId": 2,
+            "hitCount": 1,
+            "damage": 3.6800003051757812
+          },
+          { "frame": 2307, "moveId": 11, "hitCount": 1, "damage": 18 },
+          { "frame": 2549, "moveId": 6, "hitCount": 1, "damage": 7 },
+          { "frame": 2595, "moveId": 15, "hitCount": 1, "damage": 15 }
+        ],
+        "didKill": false,
+        "openingType": "counter-attack"
+      },
+      {
+        "playerIndex": 0,
+        "opponentIndex": 1,
+        "startFrame": 2248,
+        "endFrame": 2346,
+        "startPercent": 5,
+        "currentPercent": 12.680000305175781,
+        "endPercent": 12.680000305175781,
+        "moves": [
+          {
+            "frame": 2248,
+            "moveId": 13,
+            "hitCount": 1,
+            "damage": 7.680000305175781
+          }
+        ],
+        "didKill": false,
+        "openingType": "counter-attack"
+      },
+      {
+        "playerIndex": 1,
+        "opponentIndex": 0,
+        "startFrame": 3005,
+        "endFrame": 3581,
+        "startPercent": 89.13999938964844,
+        "currentPercent": 110.83999633789062,
+        "endPercent": 110.83999633789062,
+        "moves": [
+          { "frame": 3005, "moveId": 16, "hitCount": 1, "damage": 5 },
+          { "frame": 3060, "moveId": 13, "hitCount": 1, "damage": 12 },
+          {
+            "frame": 3428,
+            "moveId": 6,
+            "hitCount": 1,
+            "damage": 4.6999969482421875
+          }
+        ],
+        "didKill": false,
+        "openingType": "neutral-win"
+      },
+      {
+        "playerIndex": 0,
+        "opponentIndex": 1,
+        "startFrame": 3506,
+        "endFrame": 3638,
+        "startPercent": 12.680000305175781,
+        "currentPercent": 18.68000030517578,
+        "endPercent": 18.68000030517578,
+        "moves": [{ "frame": 3506, "moveId": 50, "hitCount": 1, "damage": 6 }],
+        "didKill": false,
+        "openingType": "counter-attack"
+      },
+      {
+        "playerIndex": 1,
+        "opponentIndex": 0,
+        "startFrame": 3922,
+        "endFrame": 4321,
+        "startPercent": 110.83999633789062,
+        "currentPercent": 131.1099853515625,
+        "endPercent": 131.1099853515625,
+        "moves": [
+          {
+            "frame": 3922,
+            "moveId": 6,
+            "hitCount": 1,
+            "damage": 6.019996643066406
+          },
+          {
+            "frame": 4019,
+            "moveId": 15,
+            "hitCount": 1,
+            "damage": 14.249992370605469
+          }
+        ],
+        "didKill": false,
+        "openingType": "neutral-win"
+      },
+      {
+        "playerIndex": 0,
+        "opponentIndex": 1,
+        "startFrame": 3977,
+        "endFrame": 4105,
+        "startPercent": 18.68000030517578,
+        "currentPercent": 32.18000030517578,
+        "endPercent": 32.18000030517578,
+        "moves": [
+          { "frame": 3977, "moveId": 13, "hitCount": 1, "damage": 13.5 }
+        ],
+        "didKill": false,
+        "openingType": "counter-attack"
+      },
+      {
+        "playerIndex": 1,
+        "opponentIndex": 0,
+        "startFrame": 4469,
+        "endFrame": 4620,
+        "startPercent": 131.1099853515625,
+        "currentPercent": 135.20999145507812,
+        "endPercent": 135.20999145507812,
+        "moves": [
+          {
+            "frame": 4469,
+            "moveId": 6,
+            "hitCount": 1,
+            "damage": 4.100006103515625
+          }
+        ],
+        "didKill": false,
+        "openingType": "neutral-win"
+      },
+      {
+        "playerIndex": 1,
+        "opponentIndex": 0,
+        "startFrame": 4684,
+        "endFrame": 4840,
+        "startPercent": 135.20999145507812,
+        "currentPercent": 144.75999450683594,
+        "endPercent": 144.75999450683594,
+        "moves": [
+          { "frame": 4684, "moveId": 21, "hitCount": 1, "damage": 5 },
+          {
+            "frame": 4750,
+            "moveId": 21,
+            "hitCount": 1,
+            "damage": 4.5500030517578125
+          }
+        ],
+        "didKill": true,
+        "openingType": "neutral-win"
+      },
+      {
+        "playerIndex": 1,
+        "opponentIndex": 0,
+        "startFrame": 5125,
+        "endFrame": 5263,
+        "startPercent": 0,
+        "currentPercent": 20.1299991607666,
+        "endPercent": 20.1299991607666,
+        "moves": [
+          {
+            "frame": 5125,
+            "moveId": 6,
+            "hitCount": 1,
+            "damage": 5.87999963760376
+          },
+          {
+            "frame": 5193,
+            "moveId": 15,
+            "hitCount": 1,
+            "damage": 14.249999523162842
+          }
+        ],
+        "didKill": false,
+        "openingType": "neutral-win"
+      },
+      {
+        "playerIndex": 1,
+        "opponentIndex": 0,
+        "startFrame": 5363,
+        "endFrame": 5468,
+        "startPercent": 20.1299991607666,
+        "currentPercent": 27.589998245239258,
+        "endPercent": 27.589998245239258,
+        "moves": [
+          {
+            "frame": 5375,
+            "moveId": 55,
+            "hitCount": 4,
+            "damage": 7.459999084472656
+          }
+        ],
+        "didKill": false,
+        "openingType": "neutral-win"
+      },
+      {
+        "playerIndex": 1,
+        "opponentIndex": 0,
+        "startFrame": 5498,
+        "endFrame": 5623,
+        "startPercent": 27.589998245239258,
+        "currentPercent": 40.939998626708984,
+        "endPercent": 40.939998626708984,
+        "moves": [
+          {
+            "frame": 5498,
+            "moveId": 15,
+            "hitCount": 1,
+            "damage": 13.350000381469727
+          }
+        ],
+        "didKill": false,
+        "openingType": "neutral-win"
+      },
+      {
+        "playerIndex": 0,
+        "opponentIndex": 1,
+        "startFrame": 5543,
+        "endFrame": 5682,
+        "startPercent": 32.18000030517578,
+        "currentPercent": 44.18000030517578,
+        "endPercent": 44.18000030517578,
+        "moves": [{ "frame": 5543, "moveId": 14, "hitCount": 1, "damage": 12 }],
+        "didKill": false,
+        "openingType": "counter-attack"
+      },
+      {
+        "playerIndex": 0,
+        "opponentIndex": 1,
+        "startFrame": 5851,
+        "endFrame": 5986,
+        "startPercent": 44.18000030517578,
+        "currentPercent": 59.18000030517578,
+        "endPercent": 59.18000030517578,
+        "moves": [{ "frame": 5851, "moveId": 13, "hitCount": 1, "damage": 15 }],
+        "didKill": false,
+        "openingType": "neutral-win"
+      },
+      {
+        "playerIndex": 0,
+        "opponentIndex": 1,
+        "startFrame": 5991,
+        "endFrame": 6229,
+        "startPercent": 59.18000030517578,
+        "currentPercent": 83.45999908447266,
+        "endPercent": 83.45999908447266,
+        "moves": [
+          {
+            "frame": 5991,
+            "moveId": 13,
+            "hitCount": 1,
+            "damage": 7.279998779296875
+          },
+          { "frame": 6032, "moveId": 12, "hitCount": 1, "damage": 17 }
+        ],
+        "didKill": false,
+        "openingType": "neutral-win"
+      },
+      {
+        "playerIndex": 0,
+        "opponentIndex": 1,
+        "startFrame": 6320,
+        "endFrame": 6448,
+        "startPercent": 83.45999908447266,
+        "currentPercent": 92.45999908447266,
+        "endPercent": 92.45999908447266,
+        "moves": [{ "frame": 6320, "moveId": 21, "hitCount": 1, "damage": 9 }],
+        "didKill": false,
+        "openingType": "neutral-win"
+      },
+      {
+        "playerIndex": 1,
+        "opponentIndex": 0,
+        "startFrame": 6870,
+        "endFrame": 6925,
+        "startPercent": 40.939998626708984,
+        "currentPercent": 49.939998626708984,
+        "endPercent": 49.939998626708984,
+        "moves": [{ "frame": 6870, "moveId": 13, "hitCount": 1, "damage": 9 }],
+        "didKill": false,
+        "openingType": "neutral-win"
+      },
+      {
+        "playerIndex": 1,
+        "opponentIndex": 0,
+        "startFrame": 6956,
+        "endFrame": 7120,
+        "startPercent": 49.939998626708984,
+        "currentPercent": 62.689998626708984,
+        "endPercent": 62.689998626708984,
+        "moves": [
+          { "frame": 6956, "moveId": 15, "hitCount": 1, "damage": 12.75 }
+        ],
+        "didKill": false,
+        "openingType": "neutral-win"
+      },
+      {
+        "playerIndex": 0,
+        "opponentIndex": 1,
+        "startFrame": 7018,
+        "endFrame": 7418,
+        "startPercent": 92.45999908447266,
+        "currentPercent": 125.95657348632812,
+        "endPercent": 125.95657348632812,
+        "moves": [
+          {
+            "frame": 7018,
+            "moveId": 14,
+            "hitCount": 1,
+            "damage": 11.400001525878906
+          },
+          {
+            "frame": 7216,
+            "moveId": 11,
+            "hitCount": 1,
+            "damage": 22.096572875976562
+          }
+        ],
+        "didKill": true,
+        "openingType": "counter-attack"
+      },
+      {
+        "playerIndex": 0,
+        "opponentIndex": 1,
+        "startFrame": 7688,
+        "endFrame": 7782,
+        "startPercent": 0,
+        "currentPercent": 7.440000057220459,
+        "endPercent": 7.440000057220459,
+        "moves": [
+          {
+            "frame": 7688,
+            "moveId": 21,
+            "hitCount": 1,
+            "damage": 7.440000057220459
+          }
+        ],
+        "didKill": false,
+        "openingType": "neutral-win"
+      },
+      {
+        "playerIndex": 1,
+        "opponentIndex": 0,
+        "startFrame": 7753,
+        "endFrame": 7869,
+        "startPercent": 62.689998626708984,
+        "currentPercent": 71.69000244140625,
+        "endPercent": 71.69000244140625,
+        "moves": [
+          {
+            "frame": 7753,
+            "moveId": 13,
+            "hitCount": 1,
+            "damage": 9.000003814697266
+          }
+        ],
+        "didKill": false,
+        "openingType": "counter-attack"
+      },
+      {
+        "playerIndex": 0,
+        "opponentIndex": 1,
+        "startFrame": 7830,
+        "endFrame": 8066,
+        "startPercent": 7.440000057220459,
+        "currentPercent": 17.440000534057617,
+        "endPercent": 17.440000534057617,
+        "moves": [
+          {
+            "frame": 7870,
+            "moveId": 54,
+            "hitCount": 1,
+            "damage": 10.000000476837158
+          }
+        ],
+        "didKill": false,
+        "openingType": "counter-attack"
+      },
+      {
+        "playerIndex": 1,
+        "opponentIndex": 0,
+        "startFrame": 8125,
+        "endFrame": 8179,
+        "startPercent": 71.69000244140625,
+        "currentPercent": 79.8800048828125,
+        "endPercent": 79.8800048828125,
+        "moves": [
+          {
+            "frame": 8125,
+            "moveId": 13,
+            "hitCount": 1,
+            "damage": 8.19000244140625
+          }
+        ],
+        "didKill": false,
+        "openingType": "neutral-win"
+      },
+      {
+        "playerIndex": 1,
+        "opponentIndex": 0,
+        "startFrame": 8310,
+        "endFrame": 8435,
+        "startPercent": 79.8800048828125,
+        "currentPercent": 86.8800048828125,
+        "endPercent": 86.8800048828125,
+        "moves": [{ "frame": 8310, "moveId": 6, "hitCount": 1, "damage": 7 }],
+        "didKill": false,
+        "openingType": "neutral-win"
+      },
+      {
+        "playerIndex": 0,
+        "opponentIndex": 1,
+        "startFrame": 8403,
+        "endFrame": 8486,
+        "startPercent": 17.440000534057617,
+        "currentPercent": 27.440000534057617,
+        "endPercent": 27.440000534057617,
+        "moves": [{ "frame": 8403, "moveId": 7, "hitCount": 1, "damage": 10 }],
+        "didKill": false,
+        "openingType": "counter-attack"
+      },
+      {
+        "playerIndex": 1,
+        "opponentIndex": 0,
+        "startFrame": 8556,
+        "endFrame": 8667,
+        "startPercent": 86.8800048828125,
+        "currentPercent": 93.25000762939453,
+        "endPercent": 93.25000762939453,
+        "moves": [
+          {
+            "frame": 8556,
+            "moveId": 6,
+            "hitCount": 1,
+            "damage": 6.370002746582031
+          }
+        ],
+        "didKill": false,
+        "openingType": "neutral-win"
+      },
+      {
+        "playerIndex": 0,
+        "opponentIndex": 1,
+        "startFrame": 8758,
+        "endFrame": 8912,
+        "startPercent": 27.440000534057617,
+        "currentPercent": 45.290000915527344,
+        "endPercent": 45.290000915527344,
+        "moves": [
+          {
+            "frame": 8758,
+            "moveId": 21,
+            "hitCount": 2,
+            "damage": 17.850000381469727
+          }
+        ],
+        "didKill": false,
+        "openingType": "neutral-win"
+      },
+      {
+        "playerIndex": 0,
+        "opponentIndex": 1,
+        "startFrame": 9195,
+        "endFrame": 9525,
+        "startPercent": 45.290000915527344,
+        "currentPercent": 73.59000396728516,
+        "endPercent": 73.59000396728516,
+        "moves": [
+          {
+            "frame": 9195,
+            "moveId": 12,
+            "hitCount": 1,
+            "damage": 16.65999984741211
+          },
+          {
+            "frame": 9250,
+            "moveId": 14,
+            "hitCount": 1,
+            "damage": 11.640003204345703
+          }
+        ],
+        "didKill": false,
+        "openingType": "neutral-win"
+      },
+      {
+        "playerIndex": 0,
+        "opponentIndex": 1,
+        "startFrame": 9643,
+        "endFrame": 9759,
+        "startPercent": 73.59000396728516,
+        "currentPercent": 84.1500015258789,
+        "endPercent": 84.1500015258789,
+        "moves": [
+          {
+            "frame": 9643,
+            "moveId": 21,
+            "hitCount": 1,
+            "damage": 10.55999755859375
+          }
+        ],
+        "didKill": false,
+        "openingType": "neutral-win"
+      },
+      {
+        "playerIndex": 1,
+        "opponentIndex": 0,
+        "startFrame": 9732,
+        "endFrame": 9959,
+        "startPercent": 93.25000762939453,
+        "currentPercent": 108.25000762939453,
+        "endPercent": 108.25000762939453,
+        "moves": [{ "frame": 9732, "moveId": 15, "hitCount": 1, "damage": 15 }],
+        "didKill": false,
+        "openingType": "counter-attack"
+      },
+      {
+        "playerIndex": 0,
+        "opponentIndex": 1,
+        "startFrame": 9884,
+        "endFrame": 10014,
+        "startPercent": 84.1500015258789,
+        "currentPercent": 100.1500015258789,
+        "endPercent": 100.1500015258789,
+        "moves": [{ "frame": 9884, "moveId": 17, "hitCount": 1, "damage": 16 }],
+        "didKill": false,
+        "openingType": "counter-attack"
+      },
+      {
+        "playerIndex": 0,
+        "opponentIndex": 1,
+        "startFrame": 10076,
+        "endFrame": 10378,
+        "startPercent": 100.1500015258789,
+        "currentPercent": 114.80000305175781,
+        "endPercent": 114.80000305175781,
+        "moves": [
+          {
+            "frame": 10076,
+            "moveId": 21,
+            "hitCount": 1,
+            "damage": 7.650001525878906
+          },
+          { "frame": 10225, "moveId": 56, "hitCount": 1, "damage": 7 }
+        ],
+        "didKill": false,
+        "openingType": "neutral-win"
+      },
+      {
+        "playerIndex": 1,
+        "opponentIndex": 0,
+        "startFrame": 10296,
+        "endFrame": 10469,
+        "startPercent": 108.25000762939453,
+        "currentPercent": 114.25000762939453,
+        "endPercent": 114.25000762939453,
+        "moves": [{ "frame": 10296, "moveId": 50, "hitCount": 1, "damage": 6 }],
+        "didKill": false,
+        "openingType": "counter-attack"
+      },
+      {
+        "playerIndex": 1,
+        "opponentIndex": 0,
+        "startFrame": 10522,
+        "endFrame": 10739,
+        "startPercent": 114.25000762939453,
+        "currentPercent": 125.34001159667969,
+        "endPercent": 125.34001159667969,
+        "moves": [
+          {
+            "frame": 10522,
+            "moveId": 6,
+            "hitCount": 1,
+            "damage": 6.090003967285156
+          },
+          { "frame": 10582, "moveId": 16, "hitCount": 1, "damage": 5 }
+        ],
+        "didKill": false,
+        "openingType": "neutral-win"
+      },
+      {
+        "playerIndex": 0,
+        "opponentIndex": 1,
+        "startFrame": 10582,
+        "endFrame": 11033,
+        "startPercent": 114.80000305175781,
+        "currentPercent": 134.8000030517578,
+        "endPercent": 134.8000030517578,
+        "moves": [
+          { "frame": 10582, "moveId": 13, "hitCount": 1, "damage": 8 },
+          { "frame": 10632, "moveId": 15, "hitCount": 1, "damage": 11 }
+        ],
+        "didKill": false,
+        "openingType": "counter-attack"
+      },
+      {
+        "playerIndex": 1,
+        "opponentIndex": 0,
+        "startFrame": 11341,
+        "endFrame": 11405,
+        "startPercent": 0,
+        "currentPercent": 3,
+        "endPercent": 3,
+        "moves": [{ "frame": 11341, "moveId": 17, "hitCount": 1, "damage": 3 }],
+        "didKill": false,
+        "openingType": "neutral-win"
+      },
+      {
+        "playerIndex": 0,
+        "opponentIndex": 1,
+        "startFrame": 11363,
+        "endFrame": 11424,
+        "startPercent": 134.8000030517578,
+        "currentPercent": 144.8000030517578,
+        "endPercent": 144.8000030517578,
+        "moves": [{ "frame": 11363, "moveId": 7, "hitCount": 1, "damage": 10 }],
+        "didKill": false,
+        "openingType": "counter-attack"
+      },
+      {
+        "playerIndex": 0,
+        "opponentIndex": 1,
+        "startFrame": 11718,
+        "endFrame": 11770,
+        "startPercent": 144.8000030517578,
+        "currentPercent": 156.8000030517578,
+        "endPercent": 156.8000030517578,
+        "moves": [
+          { "frame": 11718, "moveId": 10, "hitCount": 1, "damage": 12 }
+        ],
+        "didKill": true,
+        "openingType": "neutral-win"
+      },
+      {
+        "playerIndex": 0,
+        "opponentIndex": 1,
+        "startFrame": 12094,
+        "endFrame": 12181,
+        "startPercent": 0,
+        "currentPercent": 9,
+        "endPercent": 9,
+        "moves": [{ "frame": 12094, "moveId": 21, "hitCount": 1, "damage": 9 }],
+        "didKill": false,
+        "openingType": "neutral-win"
+      },
+      {
+        "playerIndex": 1,
+        "opponentIndex": 0,
+        "startFrame": 12188,
+        "endFrame": 12382,
+        "startPercent": 3,
+        "currentPercent": 21.799999237060547,
+        "endPercent": 21.799999237060547,
+        "moves": [
+          { "frame": 12188, "moveId": 21, "hitCount": 1, "damage": 5 },
+          { "frame": 12233, "moveId": 6, "hitCount": 1, "damage": 5 },
+          {
+            "frame": 12261,
+            "moveId": 21,
+            "hitCount": 1,
+            "damage": 4.600000381469727
+          },
+          {
+            "frame": 12302,
+            "moveId": 21,
+            "hitCount": 1,
+            "damage": 4.19999885559082
+          }
+        ],
+        "didKill": false,
+        "openingType": "neutral-win"
+      },
+      {
+        "playerIndex": 1,
+        "opponentIndex": 0,
+        "startFrame": 12405,
+        "endFrame": 12484,
+        "startPercent": 21.799999237060547,
+        "currentPercent": 36.79999923706055,
+        "endPercent": 36.79999923706055,
+        "moves": [
+          { "frame": 12405, "moveId": 15, "hitCount": 1, "damage": 15 }
+        ],
+        "didKill": false,
+        "openingType": "neutral-win"
+      },
+      {
+        "playerIndex": 1,
+        "opponentIndex": 0,
+        "startFrame": 12589,
+        "endFrame": 12687,
+        "startPercent": 36.79999923706055,
+        "currentPercent": 39.79999923706055,
+        "endPercent": 39.79999923706055,
+        "moves": [{ "frame": 12589, "moveId": 17, "hitCount": 1, "damage": 3 }],
+        "didKill": false,
+        "openingType": "neutral-win"
+      },
+      {
+        "playerIndex": 0,
+        "opponentIndex": 1,
+        "startFrame": 12893,
+        "endFrame": 12976,
+        "startPercent": 9,
+        "currentPercent": 17.189998626708984,
+        "endPercent": 17.189998626708984,
+        "moves": [
+          {
+            "frame": 12893,
+            "moveId": 21,
+            "hitCount": 1,
+            "damage": 8.189998626708984
+          }
+        ],
+        "didKill": false,
+        "openingType": "neutral-win"
+      },
+      {
+        "playerIndex": 1,
+        "opponentIndex": 0,
+        "startFrame": 12946,
+        "endFrame": 13088,
+        "startPercent": 39.79999923706055,
+        "currentPercent": 53.599998474121094,
+        "endPercent": 53.599998474121094,
+        "moves": [
+          {
+            "frame": 12946,
+            "moveId": 15,
+            "hitCount": 1,
+            "damage": 13.799999237060547
+          }
+        ],
+        "didKill": false,
+        "openingType": "counter-attack"
+      },
+      {
+        "playerIndex": 0,
+        "opponentIndex": 1,
+        "startFrame": 13074,
+        "endFrame": 13160,
+        "startPercent": 17.189998626708984,
+        "currentPercent": 23.829998016357422,
+        "endPercent": 23.829998016357422,
+        "moves": [
+          {
+            "frame": 13074,
+            "moveId": 21,
+            "hitCount": 1,
+            "damage": 6.6399993896484375
+          }
+        ],
+        "didKill": false,
+        "openingType": "counter-attack"
+      },
+      {
+        "playerIndex": 0,
+        "opponentIndex": 1,
+        "startFrame": 13329,
+        "endFrame": 13536,
+        "startPercent": 23.829998016357422,
+        "currentPercent": 39.82999801635742,
+        "endPercent": 39.82999801635742,
+        "moves": [
+          { "frame": 13329, "moveId": 17, "hitCount": 1, "damage": 16 }
+        ],
+        "didKill": false,
+        "openingType": "neutral-win"
+      },
+      {
+        "playerIndex": 1,
+        "opponentIndex": 0,
+        "startFrame": 13833,
+        "endFrame": 14110,
+        "startPercent": 53.599998474121094,
+        "currentPercent": 69.5999984741211,
+        "endPercent": 69.5999984741211,
+        "moves": [
+          { "frame": 13833, "moveId": 2, "hitCount": 1, "damage": 4 },
+          { "frame": 13941, "moveId": 13, "hitCount": 1, "damage": 12 }
+        ],
+        "didKill": false,
+        "openingType": "neutral-win"
+      },
+      {
+        "playerIndex": 1,
+        "opponentIndex": 0,
+        "startFrame": 14595,
+        "endFrame": 14956,
+        "startPercent": 69.5999984741211,
+        "currentPercent": 97.3499984741211,
+        "endPercent": 97.3499984741211,
+        "moves": [
+          {
+            "frame": 14595,
+            "moveId": 13,
+            "hitCount": 1,
+            "damage": 10.919998168945312
+          },
+          {
+            "frame": 14687,
+            "moveId": 16,
+            "hitCount": 2,
+            "damage": 16.830001831054688
+          }
+        ],
+        "didKill": false,
+        "openingType": "neutral-win"
+      },
+      {
+        "playerIndex": 0,
+        "opponentIndex": 1,
+        "startFrame": 14948,
+        "endFrame": 15001,
+        "startPercent": 39.82999801635742,
+        "currentPercent": 50.82999801635742,
+        "endPercent": 50.82999801635742,
+        "moves": [
+          { "frame": 14948, "moveId": 15, "hitCount": 1, "damage": 11 }
+        ],
+        "didKill": false,
+        "openingType": "counter-attack"
+      },
+      {
+        "playerIndex": 0,
+        "opponentIndex": 1,
+        "startFrame": 15154,
+        "endFrame": 15388,
+        "startPercent": 50.82999801635742,
+        "currentPercent": 103.2699966430664,
+        "endPercent": 103.2699966430664,
+        "moves": [
+          {
+            "frame": 15154,
+            "moveId": 10,
+            "hitCount": 1,
+            "damage": 13.439998626708984
+          },
+          { "frame": 15219, "moveId": 14, "hitCount": 1, "damage": 12 },
+          { "frame": 15354, "moveId": 19, "hitCount": 1, "damage": 25 },
+          { "frame": 15379, "moveId": 19, "hitCount": 1, "damage": 1 }
+        ],
+        "didKill": true,
+        "openingType": "neutral-win"
+      }
+    ],
+    "combos": [
+      {
+        "playerIndex": 1,
+        "opponentIndex": 0,
+        "startFrame": 64,
+        "endFrame": 123,
+        "startPercent": 0,
+        "currentPercent": 9,
+        "endPercent": 9,
+        "moves": [{ "frame": 64, "moveId": 15, "hitCount": 1, "damage": 9 }],
+        "didKill": false
+      },
+      {
+        "playerIndex": 0,
+        "opponentIndex": 1,
+        "startFrame": 135,
+        "endFrame": 192,
+        "startPercent": 0,
+        "currentPercent": 3,
+        "endPercent": 3,
+        "moves": [{ "frame": 135, "moveId": 2, "hitCount": 1, "damage": 3 }],
+        "didKill": false
+      },
+      {
+        "playerIndex": 0,
+        "opponentIndex": 1,
+        "startFrame": 326,
+        "endFrame": 375,
+        "startPercent": 3,
+        "currentPercent": 12,
+        "endPercent": 12,
+        "moves": [{ "frame": 326, "moveId": 21, "hitCount": 1, "damage": 9 }],
+        "didKill": false
+      },
+      {
+        "playerIndex": 1,
+        "opponentIndex": 0,
+        "startFrame": 347,
+        "endFrame": 398,
+        "startPercent": 9,
+        "currentPercent": 19,
+        "endPercent": 19,
+        "moves": [{ "frame": 347, "moveId": 9, "hitCount": 1, "damage": 10 }],
+        "didKill": false
+      },
+      {
+        "playerIndex": 0,
+        "opponentIndex": 1,
+        "startFrame": 376,
+        "endFrame": 426,
+        "startPercent": 12,
+        "currentPercent": 29,
+        "endPercent": 29,
+        "moves": [{ "frame": 376, "moveId": 12, "hitCount": 1, "damage": 17 }],
+        "didKill": false
+      },
+      {
+        "playerIndex": 1,
+        "opponentIndex": 0,
+        "startFrame": 516,
+        "endFrame": 614,
+        "startPercent": 19,
+        "currentPercent": 26,
+        "endPercent": 26,
+        "moves": [
+          { "frame": 516, "moveId": 17, "hitCount": 1, "damage": 2 },
+          { "frame": 534, "moveId": 21, "hitCount": 1, "damage": 5 }
+        ],
+        "didKill": false
+      },
+      {
+        "playerIndex": 0,
+        "opponentIndex": 1,
+        "startFrame": 711,
+        "endFrame": 864,
+        "startPercent": 29,
+        "currentPercent": 47.36000061035156,
+        "endPercent": 47.36000061035156,
+        "moves": [
+          {
+            "frame": 711,
+            "moveId": 21,
+            "hitCount": 1,
+            "damage": 8.279998779296875
+          },
+          {
+            "frame": 751,
+            "moveId": 21,
+            "hitCount": 1,
+            "damage": 10.080001831054688
+          }
+        ],
+        "didKill": false
+      },
+      {
+        "playerIndex": 1,
+        "opponentIndex": 0,
+        "startFrame": 831,
+        "endFrame": 949,
+        "startPercent": 26,
+        "currentPercent": 28,
+        "endPercent": 28,
+        "moves": [{ "frame": 864, "moveId": 54, "hitCount": 1, "damage": 2 }],
+        "didKill": false
+      },
+      {
+        "playerIndex": 0,
+        "opponentIndex": 1,
+        "startFrame": 958,
+        "endFrame": 1059,
+        "startPercent": 47.36000061035156,
+        "currentPercent": 62.36000061035156,
+        "endPercent": 62.36000061035156,
+        "moves": [{ "frame": 958, "moveId": 13, "hitCount": 1, "damage": 15 }],
+        "didKill": false
+      },
+      {
+        "playerIndex": 0,
+        "opponentIndex": 1,
+        "startFrame": 1093,
+        "endFrame": 1251,
+        "startPercent": 62.36000061035156,
+        "currentPercent": 72.36000061035156,
+        "endPercent": 72.36000061035156,
+        "moves": [{ "frame": 1093, "moveId": 7, "hitCount": 1, "damage": 10 }],
+        "didKill": false
+      },
+      {
+        "playerIndex": 1,
+        "opponentIndex": 0,
+        "startFrame": 1169,
+        "endFrame": 1265,
+        "startPercent": 28,
+        "currentPercent": 34,
+        "endPercent": 34,
+        "moves": [{ "frame": 1169, "moveId": 50, "hitCount": 1, "damage": 6 }],
+        "didKill": false
+      },
+      {
+        "playerIndex": 0,
+        "opponentIndex": 1,
+        "startFrame": 1306,
+        "endFrame": 1513,
+        "startPercent": 72.36000061035156,
+        "currentPercent": 94.27999877929688,
+        "endPercent": 94.27999877929688,
+        "moves": [
+          {
+            "frame": 1306,
+            "moveId": 21,
+            "hitCount": 1,
+            "damage": 7.9199981689453125
+          },
+          { "frame": 1380, "moveId": 10, "hitCount": 1, "damage": 14 }
+        ],
+        "didKill": false
+      },
+      {
+        "playerIndex": 0,
+        "opponentIndex": 1,
+        "startFrame": 1617,
+        "endFrame": 1739,
+        "startPercent": 94.27999877929688,
+        "currentPercent": 106.27999877929688,
+        "endPercent": 106.27999877929688,
+        "moves": [{ "frame": 1617, "moveId": 14, "hitCount": 1, "damage": 12 }],
+        "didKill": false
+      },
+      {
+        "playerIndex": 0,
+        "opponentIndex": 1,
+        "startFrame": 2132,
+        "endFrame": 2186,
+        "startPercent": 0,
+        "currentPercent": 5,
+        "endPercent": 5,
+        "moves": [{ "frame": 2132, "moveId": 19, "hitCount": 1, "damage": 5 }],
+        "didKill": false
+      },
+      {
+        "playerIndex": 1,
+        "opponentIndex": 0,
+        "startFrame": 2159,
+        "endFrame": 2422,
+        "startPercent": 34,
+        "currentPercent": 67.13999938964844,
+        "endPercent": 67.13999938964844,
+        "moves": [
+          { "frame": 2159, "moveId": 2, "hitCount": 1, "damage": 4 },
+          {
+            "frame": 2198,
+            "moveId": 55,
+            "hitCount": 4,
+            "damage": 7.459999084472656
+          },
+          {
+            "frame": 2282,
+            "moveId": 2,
+            "hitCount": 1,
+            "damage": 3.6800003051757812
+          },
+          { "frame": 2307, "moveId": 11, "hitCount": 1, "damage": 18 }
+        ],
+        "didKill": false
+      },
+      {
+        "playerIndex": 0,
+        "opponentIndex": 1,
+        "startFrame": 2248,
+        "endFrame": 2315,
+        "startPercent": 5,
+        "currentPercent": 12.680000305175781,
+        "endPercent": 12.680000305175781,
+        "moves": [
+          {
+            "frame": 2248,
+            "moveId": 13,
+            "hitCount": 1,
+            "damage": 7.680000305175781
+          }
+        ],
+        "didKill": false
+      },
+      {
+        "playerIndex": 1,
+        "opponentIndex": 0,
+        "startFrame": 2549,
+        "endFrame": 2696,
+        "startPercent": 67.13999938964844,
+        "currentPercent": 89.13999938964844,
+        "endPercent": 89.13999938964844,
+        "moves": [
+          { "frame": 2549, "moveId": 6, "hitCount": 1, "damage": 7 },
+          { "frame": 2595, "moveId": 15, "hitCount": 1, "damage": 15 }
+        ],
+        "didKill": false
+      },
+      {
+        "playerIndex": 1,
+        "opponentIndex": 0,
+        "startFrame": 3005,
+        "endFrame": 3163,
+        "startPercent": 89.13999938964844,
+        "currentPercent": 106.13999938964844,
+        "endPercent": 106.13999938964844,
+        "moves": [
+          { "frame": 3005, "moveId": 16, "hitCount": 1, "damage": 5 },
+          { "frame": 3060, "moveId": 13, "hitCount": 1, "damage": 12 }
+        ],
+        "didKill": false
+      },
+      {
+        "playerIndex": 1,
+        "opponentIndex": 0,
+        "startFrame": 3428,
+        "endFrame": 3581,
+        "startPercent": 106.13999938964844,
+        "currentPercent": 110.83999633789062,
+        "endPercent": 110.83999633789062,
+        "moves": [
+          {
+            "frame": 3428,
+            "moveId": 6,
+            "hitCount": 1,
+            "damage": 4.6999969482421875
+          }
+        ],
+        "didKill": false
+      },
+      {
+        "playerIndex": 0,
+        "opponentIndex": 1,
+        "startFrame": 3506,
+        "endFrame": 3638,
+        "startPercent": 12.680000305175781,
+        "currentPercent": 18.68000030517578,
+        "endPercent": 18.68000030517578,
+        "moves": [{ "frame": 3506, "moveId": 50, "hitCount": 1, "damage": 6 }],
+        "didKill": false
+      },
+      {
+        "playerIndex": 1,
+        "opponentIndex": 0,
+        "startFrame": 3922,
+        "endFrame": 4139,
+        "startPercent": 110.83999633789062,
+        "currentPercent": 131.1099853515625,
+        "endPercent": 131.1099853515625,
+        "moves": [
+          {
+            "frame": 3922,
+            "moveId": 6,
+            "hitCount": 1,
+            "damage": 6.019996643066406
+          },
+          {
+            "frame": 4019,
+            "moveId": 15,
+            "hitCount": 1,
+            "damage": 14.249992370605469
+          }
+        ],
+        "didKill": false
+      },
+      {
+        "playerIndex": 0,
+        "opponentIndex": 1,
+        "startFrame": 3977,
+        "endFrame": 4061,
+        "startPercent": 18.68000030517578,
+        "currentPercent": 32.18000030517578,
+        "endPercent": 32.18000030517578,
+        "moves": [
+          { "frame": 3977, "moveId": 13, "hitCount": 1, "damage": 13.5 }
+        ],
+        "didKill": false
+      },
+      {
+        "playerIndex": 1,
+        "opponentIndex": 0,
+        "startFrame": 4469,
+        "endFrame": 4556,
+        "startPercent": 131.1099853515625,
+        "currentPercent": 135.20999145507812,
+        "endPercent": 135.20999145507812,
+        "moves": [
+          {
+            "frame": 4469,
+            "moveId": 6,
+            "hitCount": 1,
+            "damage": 4.100006103515625
+          }
+        ],
+        "didKill": false
+      },
+      {
+        "playerIndex": 1,
+        "opponentIndex": 0,
+        "startFrame": 4684,
+        "endFrame": 4748,
+        "startPercent": 135.20999145507812,
+        "currentPercent": 140.20999145507812,
+        "endPercent": 140.20999145507812,
+        "moves": [{ "frame": 4684, "moveId": 21, "hitCount": 1, "damage": 5 }],
+        "didKill": false
+      },
+      {
+        "playerIndex": 1,
+        "opponentIndex": 0,
+        "startFrame": 4750,
+        "endFrame": 4830,
+        "startPercent": 140.20999145507812,
+        "currentPercent": 144.75999450683594,
+        "endPercent": 144.75999450683594,
+        "moves": [
+          {
+            "frame": 4750,
+            "moveId": 21,
+            "hitCount": 1,
+            "damage": 4.5500030517578125
+          }
+        ],
+        "didKill": false
+      },
+      {
+        "playerIndex": 1,
+        "opponentIndex": 0,
+        "startFrame": 5125,
+        "endFrame": 5174,
+        "startPercent": 0,
+        "currentPercent": 5.87999963760376,
+        "endPercent": 5.87999963760376,
+        "moves": [
+          {
+            "frame": 5125,
+            "moveId": 6,
+            "hitCount": 1,
+            "damage": 5.87999963760376
+          }
+        ],
+        "didKill": false
+      },
+      {
+        "playerIndex": 1,
+        "opponentIndex": 0,
+        "startFrame": 5193,
+        "endFrame": 5263,
+        "startPercent": 5.87999963760376,
+        "currentPercent": 20.1299991607666,
+        "endPercent": 20.1299991607666,
+        "moves": [
+          {
+            "frame": 5193,
+            "moveId": 15,
+            "hitCount": 1,
+            "damage": 14.249999523162842
+          }
+        ],
+        "didKill": false
+      },
+      {
+        "playerIndex": 1,
+        "opponentIndex": 0,
+        "startFrame": 5363,
+        "endFrame": 5463,
+        "startPercent": 20.1299991607666,
+        "currentPercent": 27.589998245239258,
+        "endPercent": 27.589998245239258,
+        "moves": [
+          {
+            "frame": 5375,
+            "moveId": 55,
+            "hitCount": 4,
+            "damage": 7.459999084472656
+          }
+        ],
+        "didKill": false
+      },
+      {
+        "playerIndex": 1,
+        "opponentIndex": 0,
+        "startFrame": 5498,
+        "endFrame": 5578,
+        "startPercent": 27.589998245239258,
+        "currentPercent": 40.939998626708984,
+        "endPercent": 40.939998626708984,
+        "moves": [
+          {
+            "frame": 5498,
+            "moveId": 15,
+            "hitCount": 1,
+            "damage": 13.350000381469727
+          }
+        ],
+        "didKill": false
+      },
+      {
+        "playerIndex": 0,
+        "opponentIndex": 1,
+        "startFrame": 5543,
+        "endFrame": 5682,
+        "startPercent": 32.18000030517578,
+        "currentPercent": 44.18000030517578,
+        "endPercent": 44.18000030517578,
+        "moves": [{ "frame": 5543, "moveId": 14, "hitCount": 1, "damage": 12 }],
+        "didKill": false
+      },
+      {
+        "playerIndex": 0,
+        "opponentIndex": 1,
+        "startFrame": 5851,
+        "endFrame": 5977,
+        "startPercent": 44.18000030517578,
+        "currentPercent": 59.18000030517578,
+        "endPercent": 59.18000030517578,
+        "moves": [{ "frame": 5851, "moveId": 13, "hitCount": 1, "damage": 15 }],
+        "didKill": false
+      },
+      {
+        "playerIndex": 0,
+        "opponentIndex": 1,
+        "startFrame": 5991,
+        "endFrame": 6146,
+        "startPercent": 59.18000030517578,
+        "currentPercent": 83.45999908447266,
+        "endPercent": 83.45999908447266,
+        "moves": [
+          {
+            "frame": 5991,
+            "moveId": 13,
+            "hitCount": 1,
+            "damage": 7.279998779296875
+          },
+          { "frame": 6032, "moveId": 12, "hitCount": 1, "damage": 17 }
+        ],
+        "didKill": false
+      },
+      {
+        "playerIndex": 0,
+        "opponentIndex": 1,
+        "startFrame": 6320,
+        "endFrame": 6448,
+        "startPercent": 83.45999908447266,
+        "currentPercent": 92.45999908447266,
+        "endPercent": 92.45999908447266,
+        "moves": [{ "frame": 6320, "moveId": 21, "hitCount": 1, "damage": 9 }],
+        "didKill": false
+      },
+      {
+        "playerIndex": 1,
+        "opponentIndex": 0,
+        "startFrame": 6870,
+        "endFrame": 6921,
+        "startPercent": 40.939998626708984,
+        "currentPercent": 49.939998626708984,
+        "endPercent": 49.939998626708984,
+        "moves": [{ "frame": 6870, "moveId": 13, "hitCount": 1, "damage": 9 }],
+        "didKill": false
+      },
+      {
+        "playerIndex": 1,
+        "opponentIndex": 0,
+        "startFrame": 6956,
+        "endFrame": 7043,
+        "startPercent": 49.939998626708984,
+        "currentPercent": 62.689998626708984,
+        "endPercent": 62.689998626708984,
+        "moves": [
+          { "frame": 6956, "moveId": 15, "hitCount": 1, "damage": 12.75 }
+        ],
+        "didKill": false
+      },
+      {
+        "playerIndex": 0,
+        "opponentIndex": 1,
+        "startFrame": 7018,
+        "endFrame": 7138,
+        "startPercent": 92.45999908447266,
+        "currentPercent": 103.86000061035156,
+        "endPercent": 103.86000061035156,
+        "moves": [
+          {
+            "frame": 7018,
+            "moveId": 14,
+            "hitCount": 1,
+            "damage": 11.400001525878906
+          }
+        ],
+        "didKill": false
+      },
+      {
+        "playerIndex": 0,
+        "opponentIndex": 1,
+        "startFrame": 7216,
+        "endFrame": 7418,
+        "startPercent": 103.86000061035156,
+        "currentPercent": 125.95657348632812,
+        "endPercent": 125.95657348632812,
+        "moves": [
+          {
+            "frame": 7216,
+            "moveId": 11,
+            "hitCount": 1,
+            "damage": 22.096572875976562
+          }
+        ],
+        "didKill": true
+      },
+      {
+        "playerIndex": 0,
+        "opponentIndex": 1,
+        "startFrame": 7688,
+        "endFrame": 7759,
+        "startPercent": 0,
+        "currentPercent": 7.440000057220459,
+        "endPercent": 7.440000057220459,
+        "moves": [
+          {
+            "frame": 7688,
+            "moveId": 21,
+            "hitCount": 1,
+            "damage": 7.440000057220459
+          }
+        ],
+        "didKill": false
+      },
+      {
+        "playerIndex": 1,
+        "opponentIndex": 0,
+        "startFrame": 7753,
+        "endFrame": 7804,
+        "startPercent": 62.689998626708984,
+        "currentPercent": 71.69000244140625,
+        "endPercent": 71.69000244140625,
+        "moves": [
+          {
+            "frame": 7753,
+            "moveId": 13,
+            "hitCount": 1,
+            "damage": 9.000003814697266
+          }
+        ],
+        "didKill": false
+      },
+      {
+        "playerIndex": 0,
+        "opponentIndex": 1,
+        "startFrame": 7830,
+        "endFrame": 7954,
+        "startPercent": 7.440000057220459,
+        "currentPercent": 17.440000534057617,
+        "endPercent": 17.440000534057617,
+        "moves": [
+          {
+            "frame": 7870,
+            "moveId": 54,
+            "hitCount": 1,
+            "damage": 10.000000476837158
+          }
+        ],
+        "didKill": false
+      },
+      {
+        "playerIndex": 1,
+        "opponentIndex": 0,
+        "startFrame": 8125,
+        "endFrame": 8175,
+        "startPercent": 71.69000244140625,
+        "currentPercent": 79.8800048828125,
+        "endPercent": 79.8800048828125,
+        "moves": [
+          {
+            "frame": 8125,
+            "moveId": 13,
+            "hitCount": 1,
+            "damage": 8.19000244140625
+          }
+        ],
+        "didKill": false
+      },
+      {
+        "playerIndex": 1,
+        "opponentIndex": 0,
+        "startFrame": 8310,
+        "endFrame": 8403,
+        "startPercent": 79.8800048828125,
+        "currentPercent": 86.8800048828125,
+        "endPercent": 86.8800048828125,
+        "moves": [{ "frame": 8310, "moveId": 6, "hitCount": 1, "damage": 7 }],
+        "didKill": false
+      },
+      {
+        "playerIndex": 0,
+        "opponentIndex": 1,
+        "startFrame": 8403,
+        "endFrame": 8462,
+        "startPercent": 17.440000534057617,
+        "currentPercent": 27.440000534057617,
+        "endPercent": 27.440000534057617,
+        "moves": [{ "frame": 8403, "moveId": 7, "hitCount": 1, "damage": 10 }],
+        "didKill": false
+      },
+      {
+        "playerIndex": 1,
+        "opponentIndex": 0,
+        "startFrame": 8556,
+        "endFrame": 8667,
+        "startPercent": 86.8800048828125,
+        "currentPercent": 93.25000762939453,
+        "endPercent": 93.25000762939453,
+        "moves": [
+          {
+            "frame": 8556,
+            "moveId": 6,
+            "hitCount": 1,
+            "damage": 6.370002746582031
+          }
+        ],
+        "didKill": false
+      },
+      {
+        "playerIndex": 0,
+        "opponentIndex": 1,
+        "startFrame": 8758,
+        "endFrame": 8910,
+        "startPercent": 27.440000534057617,
+        "currentPercent": 45.290000915527344,
+        "endPercent": 45.290000915527344,
+        "moves": [
+          {
+            "frame": 8758,
+            "moveId": 21,
+            "hitCount": 2,
+            "damage": 17.850000381469727
+          }
+        ],
+        "didKill": false
+      },
+      {
+        "playerIndex": 0,
+        "opponentIndex": 1,
+        "startFrame": 9195,
+        "endFrame": 9356,
+        "startPercent": 45.290000915527344,
+        "currentPercent": 73.59000396728516,
+        "endPercent": 73.59000396728516,
+        "moves": [
+          {
+            "frame": 9195,
+            "moveId": 12,
+            "hitCount": 1,
+            "damage": 16.65999984741211
+          },
+          {
+            "frame": 9250,
+            "moveId": 14,
+            "hitCount": 1,
+            "damage": 11.640003204345703
+          }
+        ],
+        "didKill": false
+      },
+      {
+        "playerIndex": 0,
+        "opponentIndex": 1,
+        "startFrame": 9643,
+        "endFrame": 9731,
+        "startPercent": 73.59000396728516,
+        "currentPercent": 84.1500015258789,
+        "endPercent": 84.1500015258789,
+        "moves": [
+          {
+            "frame": 9643,
+            "moveId": 21,
+            "hitCount": 1,
+            "damage": 10.55999755859375
+          }
+        ],
+        "didKill": false
+      },
+      {
+        "playerIndex": 1,
+        "opponentIndex": 0,
+        "startFrame": 9732,
+        "endFrame": 9842,
+        "startPercent": 93.25000762939453,
+        "currentPercent": 108.25000762939453,
+        "endPercent": 108.25000762939453,
+        "moves": [{ "frame": 9732, "moveId": 15, "hitCount": 1, "damage": 15 }],
+        "didKill": false
+      },
+      {
+        "playerIndex": 0,
+        "opponentIndex": 1,
+        "startFrame": 9884,
+        "endFrame": 10014,
+        "startPercent": 84.1500015258789,
+        "currentPercent": 100.1500015258789,
+        "endPercent": 100.1500015258789,
+        "moves": [{ "frame": 9884, "moveId": 17, "hitCount": 1, "damage": 16 }],
+        "didKill": false
+      },
+      {
+        "playerIndex": 0,
+        "opponentIndex": 1,
+        "startFrame": 10076,
+        "endFrame": 10181,
+        "startPercent": 100.1500015258789,
+        "currentPercent": 107.80000305175781,
+        "endPercent": 107.80000305175781,
+        "moves": [
+          {
+            "frame": 10076,
+            "moveId": 21,
+            "hitCount": 1,
+            "damage": 7.650001525878906
+          }
+        ],
+        "didKill": false
+      },
+      {
+        "playerIndex": 0,
+        "opponentIndex": 1,
+        "startFrame": 10186,
+        "endFrame": 10378,
+        "startPercent": 107.80000305175781,
+        "currentPercent": 114.80000305175781,
+        "endPercent": 114.80000305175781,
+        "moves": [{ "frame": 10225, "moveId": 56, "hitCount": 1, "damage": 7 }],
+        "didKill": false
+      },
+      {
+        "playerIndex": 1,
+        "opponentIndex": 0,
+        "startFrame": 10296,
+        "endFrame": 10393,
+        "startPercent": 108.25000762939453,
+        "currentPercent": 114.25000762939453,
+        "endPercent": 114.25000762939453,
+        "moves": [{ "frame": 10296, "moveId": 50, "hitCount": 1, "damage": 6 }],
+        "didKill": false
+      },
+      {
+        "playerIndex": 1,
+        "opponentIndex": 0,
+        "startFrame": 10522,
+        "endFrame": 10653,
+        "startPercent": 114.25000762939453,
+        "currentPercent": 125.34001159667969,
+        "endPercent": 125.34001159667969,
+        "moves": [
+          {
+            "frame": 10522,
+            "moveId": 6,
+            "hitCount": 1,
+            "damage": 6.090003967285156
+          },
+          { "frame": 10582, "moveId": 16, "hitCount": 1, "damage": 5 }
+        ],
+        "didKill": false
+      },
+      {
+        "playerIndex": 0,
+        "opponentIndex": 1,
+        "startFrame": 10582,
+        "endFrame": 10749,
+        "startPercent": 114.80000305175781,
+        "currentPercent": 133.8000030517578,
+        "endPercent": 133.8000030517578,
+        "moves": [
+          { "frame": 10582, "moveId": 13, "hitCount": 1, "damage": 8 },
+          { "frame": 10632, "moveId": 15, "hitCount": 1, "damage": 11 }
+        ],
+        "didKill": false
+      },
+      {
+        "playerIndex": 1,
+        "opponentIndex": 0,
+        "startFrame": 11341,
+        "endFrame": 11405,
+        "startPercent": 0,
+        "currentPercent": 3,
+        "endPercent": 3,
+        "moves": [{ "frame": 11341, "moveId": 17, "hitCount": 1, "damage": 3 }],
+        "didKill": false
+      },
+      {
+        "playerIndex": 0,
+        "opponentIndex": 1,
+        "startFrame": 11363,
+        "endFrame": 11424,
+        "startPercent": 134.8000030517578,
+        "currentPercent": 144.8000030517578,
+        "endPercent": 144.8000030517578,
+        "moves": [{ "frame": 11363, "moveId": 7, "hitCount": 1, "damage": 10 }],
+        "didKill": false
+      },
+      {
+        "playerIndex": 0,
+        "opponentIndex": 1,
+        "startFrame": 11718,
+        "endFrame": 11770,
+        "startPercent": 144.8000030517578,
+        "currentPercent": 156.8000030517578,
+        "endPercent": 156.8000030517578,
+        "moves": [
+          { "frame": 11718, "moveId": 10, "hitCount": 1, "damage": 12 }
+        ],
+        "didKill": true
+      },
+      {
+        "playerIndex": 0,
+        "opponentIndex": 1,
+        "startFrame": 12094,
+        "endFrame": 12160,
+        "startPercent": 0,
+        "currentPercent": 9,
+        "endPercent": 9,
+        "moves": [{ "frame": 12094, "moveId": 21, "hitCount": 1, "damage": 9 }],
+        "didKill": false
+      },
+      {
+        "playerIndex": 1,
+        "opponentIndex": 0,
+        "startFrame": 12188,
+        "endFrame": 12382,
+        "startPercent": 3,
+        "currentPercent": 21.799999237060547,
+        "endPercent": 21.799999237060547,
+        "moves": [
+          { "frame": 12188, "moveId": 21, "hitCount": 1, "damage": 5 },
+          { "frame": 12233, "moveId": 6, "hitCount": 1, "damage": 5 },
+          {
+            "frame": 12261,
+            "moveId": 21,
+            "hitCount": 1,
+            "damage": 4.600000381469727
+          },
+          {
+            "frame": 12302,
+            "moveId": 21,
+            "hitCount": 1,
+            "damage": 4.19999885559082
+          }
+        ],
+        "didKill": false
+      },
+      {
+        "playerIndex": 1,
+        "opponentIndex": 0,
+        "startFrame": 12405,
+        "endFrame": 12484,
+        "startPercent": 21.799999237060547,
+        "currentPercent": 36.79999923706055,
+        "endPercent": 36.79999923706055,
+        "moves": [
+          { "frame": 12405, "moveId": 15, "hitCount": 1, "damage": 15 }
+        ],
+        "didKill": false
+      },
+      {
+        "playerIndex": 1,
+        "opponentIndex": 0,
+        "startFrame": 12589,
+        "endFrame": 12653,
+        "startPercent": 36.79999923706055,
+        "currentPercent": 39.79999923706055,
+        "endPercent": 39.79999923706055,
+        "moves": [{ "frame": 12589, "moveId": 17, "hitCount": 1, "damage": 3 }],
+        "didKill": false
+      },
+      {
+        "playerIndex": 0,
+        "opponentIndex": 1,
+        "startFrame": 12893,
+        "endFrame": 12943,
+        "startPercent": 9,
+        "currentPercent": 17.189998626708984,
+        "endPercent": 17.189998626708984,
+        "moves": [
+          {
+            "frame": 12893,
+            "moveId": 21,
+            "hitCount": 1,
+            "damage": 8.189998626708984
+          }
+        ],
+        "didKill": false
+      },
+      {
+        "playerIndex": 1,
+        "opponentIndex": 0,
+        "startFrame": 12946,
+        "endFrame": 13029,
+        "startPercent": 39.79999923706055,
+        "currentPercent": 53.599998474121094,
+        "endPercent": 53.599998474121094,
+        "moves": [
+          {
+            "frame": 12946,
+            "moveId": 15,
+            "hitCount": 1,
+            "damage": 13.799999237060547
+          }
+        ],
+        "didKill": false
+      },
+      {
+        "playerIndex": 0,
+        "opponentIndex": 1,
+        "startFrame": 13074,
+        "endFrame": 13142,
+        "startPercent": 17.189998626708984,
+        "currentPercent": 23.829998016357422,
+        "endPercent": 23.829998016357422,
+        "moves": [
+          {
+            "frame": 13074,
+            "moveId": 21,
+            "hitCount": 1,
+            "damage": 6.6399993896484375
+          }
+        ],
+        "didKill": false
+      },
+      {
+        "playerIndex": 0,
+        "opponentIndex": 1,
+        "startFrame": 13329,
+        "endFrame": 13418,
+        "startPercent": 23.829998016357422,
+        "currentPercent": 39.82999801635742,
+        "endPercent": 39.82999801635742,
+        "moves": [
+          { "frame": 13329, "moveId": 17, "hitCount": 1, "damage": 16 }
+        ],
+        "didKill": false
+      },
+      {
+        "playerIndex": 1,
+        "opponentIndex": 0,
+        "startFrame": 13833,
+        "endFrame": 13897,
+        "startPercent": 53.599998474121094,
+        "currentPercent": 57.599998474121094,
+        "endPercent": 57.599998474121094,
+        "moves": [{ "frame": 13833, "moveId": 2, "hitCount": 1, "damage": 4 }],
+        "didKill": false
+      },
+      {
+        "playerIndex": 1,
+        "opponentIndex": 0,
+        "startFrame": 13941,
+        "endFrame": 14030,
+        "startPercent": 57.599998474121094,
+        "currentPercent": 69.5999984741211,
+        "endPercent": 69.5999984741211,
+        "moves": [
+          { "frame": 13941, "moveId": 13, "hitCount": 1, "damage": 12 }
+        ],
+        "didKill": false
+      },
+      {
+        "playerIndex": 1,
+        "opponentIndex": 0,
+        "startFrame": 14595,
+        "endFrame": 14814,
+        "startPercent": 69.5999984741211,
+        "currentPercent": 97.3499984741211,
+        "endPercent": 97.3499984741211,
+        "moves": [
+          {
+            "frame": 14595,
+            "moveId": 13,
+            "hitCount": 1,
+            "damage": 10.919998168945312
+          },
+          {
+            "frame": 14687,
+            "moveId": 16,
+            "hitCount": 2,
+            "damage": 16.830001831054688
+          }
+        ],
+        "didKill": false
+      },
+      {
+        "playerIndex": 0,
+        "opponentIndex": 1,
+        "startFrame": 14948,
+        "endFrame": 14997,
+        "startPercent": 39.82999801635742,
+        "currentPercent": 50.82999801635742,
+        "endPercent": 50.82999801635742,
+        "moves": [
+          { "frame": 14948, "moveId": 15, "hitCount": 1, "damage": 11 }
+        ],
+        "didKill": false
+      },
+      {
+        "playerIndex": 0,
+        "opponentIndex": 1,
+        "startFrame": 15154,
+        "endFrame": 15328,
+        "startPercent": 50.82999801635742,
+        "currentPercent": 77.2699966430664,
+        "endPercent": 77.2699966430664,
+        "moves": [
+          {
+            "frame": 15154,
+            "moveId": 10,
+            "hitCount": 1,
+            "damage": 13.439998626708984
+          },
+          { "frame": 15219, "moveId": 14, "hitCount": 1, "damage": 12 }
+        ],
+        "didKill": false
+      },
+      {
+        "playerIndex": 0,
+        "opponentIndex": 1,
+        "startFrame": 15354,
+        "endFrame": 15388,
+        "startPercent": 77.2699966430664,
+        "currentPercent": 103.2699966430664,
+        "endPercent": 103.2699966430664,
+        "moves": [
+          { "frame": 15354, "moveId": 19, "hitCount": 1, "damage": 25 },
+          { "frame": 15379, "moveId": 19, "hitCount": 1, "damage": 1 }
+        ],
+        "didKill": true
+      }
+    ],
+    "actionCounts": [
+      {
+        "playerIndex": 0,
+        "opponentIndex": 1,
+        "wavedashCount": 38,
+        "wavelandCount": 1,
+        "airDodgeCount": 3,
+        "dashDanceCount": 14,
+        "spotDodgeCount": 4,
+        "ledgegrabCount": 2,
+        "rollCount": 14
+      },
+      {
+        "playerIndex": 1,
+        "opponentIndex": 0,
+        "wavedashCount": 33,
+        "wavelandCount": 14,
+        "airDodgeCount": 6,
+        "dashDanceCount": 285,
+        "spotDodgeCount": 1,
+        "ledgegrabCount": 3,
+        "rollCount": 8
+      }
+    ],
+    "overall": [
+      {
+        "playerIndex": 0,
+        "opponentIndex": 1,
+        "inputCounts": {
+          "buttons": 430,
+          "triggers": 109,
+          "cstick": 177,
+          "joystick": 1010,
+          "total": 1726
+        },
+        "conversionCount": 31,
+        "totalDamage": 493.3065719604492,
+        "killCount": 4,
+        "successfulConversions": {
+          "count": 10,
+          "total": 31,
+          "ratio": 0.3225806451612903
+        },
+        "inputsPerMinute": {
+          "count": 1726,
+          "total": 4.285277777777778,
+          "ratio": 402.7743566474363
+        },
+        "digitalInputsPerMinute": {
+          "count": 430,
+          "total": 4.285277777777778,
+          "ratio": 100.34355351007973
+        },
+        "openingsPerKill": { "count": 31, "total": 4, "ratio": 7.75 },
+        "damagePerOpening": {
+          "count": 493.3065719604492,
+          "total": 31,
+          "ratio": 15.91311522453062
+        },
+        "neutralWinRatio": {
+          "count": 17,
+          "total": 38,
+          "ratio": 0.4473684210526316
+        },
+        "counterHitRatio": {
+          "count": 14,
+          "total": 22,
+          "ratio": 0.6363636363636364
+        },
+        "beneficialTradeRatio": { "count": 0, "total": 0, "ratio": null }
+      },
+      {
+        "playerIndex": 1,
+        "opponentIndex": 0,
+        "inputCounts": {
+          "buttons": 477,
+          "triggers": 43,
+          "cstick": 99,
+          "joystick": 1054,
+          "total": 1673
+        },
+        "conversionCount": 29,
+        "totalDamage": 367.4500045776367,
+        "killCount": 2,
+        "successfulConversions": {
+          "count": 10,
+          "total": 29,
+          "ratio": 0.3448275862068966
+        },
+        "inputsPerMinute": {
+          "count": 1673,
+          "total": 4.285277777777778,
+          "ratio": 390.406430284566
+        },
+        "digitalInputsPerMinute": {
+          "count": 477,
+          "total": 4.285277777777778,
+          "ratio": 111.31133726583262
+        },
+        "openingsPerKill": { "count": 29, "total": 2, "ratio": 14.5 },
+        "damagePerOpening": {
+          "count": 367.4500045776367,
+          "total": 29,
+          "ratio": 12.670689813021955
+        },
+        "neutralWinRatio": {
+          "count": 21,
+          "total": 38,
+          "ratio": 0.5526315789473685
+        },
+        "counterHitRatio": {
+          "count": 8,
+          "total": 22,
+          "ratio": 0.36363636363636365
+        },
+        "beneficialTradeRatio": { "count": 0, "total": 0, "ratio": null }
+      }
+    ],
+    "gameComplete": true
+  }
+]
