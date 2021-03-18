@@ -25,16 +25,27 @@ fetch(STATS)
   .then((data) => {
     // console.log(data);
     // test = data[2].actionCounts;
-    test = data[2].stocks[0];
+    test = data[2].overall[0];
     console.log(test);
-
-    // for(let i = 0; i < data[2].stocks.length; i++){
-
-    // }
   });
+
+function matchWinner(playerNum, data) {
+  let playerIndex = data[2].overall[playerNum].playerIndex;
+  let killCount = data[2].overall[playerNum].killCount;
+  if (playerIndex == 0 && killCount == 4) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+// time, most common kill move/neutral opener
 
 // stage ID
 // stage = data[0].stageId;
+
+// player 1 winner score
+// matchWinner(0, data);
 
 // player 1 character stats
 // p1Stats = data[0].players[0];
@@ -63,6 +74,12 @@ fetch(STATS)
 // player 1 apm
 // p1APM = data[2].overall[0].inputsPerMinute.ratio;
 
+// player 1 average kill percent
+// averageKillPercent(0, data);
+
+// player 2 winner score
+// matchWinner(1, data);
+
 // player 2 character stats
 // p2Stats = data[0].players[1];
 
@@ -89,5 +106,39 @@ fetch(STATS)
 
 // player 2 apm
 // p2APM = data[2].overall[1].inputsPerMinute.ratio;
+
+// player 2 average kill percent
+// averageKillPercent(1, data);
+
+// player 1/2 average kill percent function
+// function averageKillPercent(playerNum, data) {
+//   let killArray = [];
+//   let nullRemove = 0;
+
+//   for (let i = 0; i < data[2].stocks.length; i++) {
+//     let playerIndex = data[2].stocks[i].playerIndex;
+//     let endPercent = data[2].stocks[i].endPercent;
+//     if (playerIndex == playerNum && endPercent != null) {
+//       killArray.push(data[2].stocks[i].endPercent);
+//       if (endPercent == null) {
+//         nullRemove += 1;
+//       }
+//     }
+//   }
+//   let killTotal = killArray.reduce((a, b) => a + b, 0);
+//   let AverageKillPercent = killTotal / (killArray.length - nullRemove);
+//   console.log(AverageKillPercent);
+// }
+
+// score function. If true, p1 = winner. If false, p2 = winner
+// function matchWinner(playerNum, data) {
+//   let playerIndex = data[2].overall[playerNum].playerIndex;
+//   let killCount = data[2].overall[playerNum].killCount;
+//   if (playerIndex == 0 && killCount == 4) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
 
 // player index 0 = player 1
