@@ -1,0 +1,97 @@
+@import 'config';
+
+#stats-container {
+  display: flex;
+  // justify-content: space-around;
+  justify-content: center;
+  margin-top: 30px;
+  h2 {
+    font-weight: 900;
+    text-decoration: underline;
+  }
+
+  i {
+    color: gold;
+  }
+
+  li {
+    list-style: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 2px;
+  }
+}
+
+#stat-titles {
+  padding-top: 80px;
+  margin: 0px 200px;
+
+  p {
+    font-size: 1.2rem;
+  }
+  h1 {
+    font-weight: 900;
+  }
+
+  ul {
+    padding-top: 90px;
+  }
+
+  li {
+    background-color: $accent-color;
+    width: 300px;
+    border: 1px solid $text-color;
+    padding: 2px;
+    // text-decoration: underline;
+  }
+
+  li::before {
+    z-index: -1;
+    content: '';
+    display: block;
+    background-image: linear-gradient(
+      to right,
+      transparent,
+      $text-color,
+      transparent
+    );
+    height: 0.1rem;
+    position: absolute;
+    width: 45%;
+    transform: translate(-33%, -50%);
+    margin-top: 15px;
+  }
+}
+
+.character-image {
+  height: 400px;
+}
+
+.p2 {
+  transform: scaleX(-1);
+}
+
+.player-name-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.fa-crown {
+  font-size: 1.25rem;
+  padding-top: 13px;
+  padding-left: 5px;
+}
+
+#match-score {
+  -webkit-text-stroke: 1px $background-color;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: $accent-color;
+}
+
+#stage-img {
+  height: 150px;
+  border: 1px solid $accent-color;
+}
