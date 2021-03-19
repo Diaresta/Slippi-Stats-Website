@@ -1,0 +1,65 @@
+@import 'config';
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  // height: 50%;
+}
+
+#error {
+  padding-top: 75px;
+  margin-top: 80px;
+  color: $accent-color;
+  font-size: 1.5rem;
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+#upload-box {
+  margin: 100px auto 20px auto;
+  width: 400px;
+  height: 200px;
+  border: 3px dotted $text-hover;
+  padding-top: 80px;
+
+  input {
+    // opacity: 0;
+  }
+}
+
+#upload-box.dragover {
+  border-color: $accent-color;
+  color: $text-hover;
+}
+
+#stats-button {
+  border: medium none;
+  width: 400px;
+  margin-top: 75px;
+  margin-left: -3px;
+  color: $text-color;
+  background-color: $text-hover;
+  padding: 1.25rem 0;
+  cursor: auto;
+}
+
+#clear-button {
+  background: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  color: $text-color;
+  font-size: 0.75rem;
+}
+
+#clear-button:hover {
+  color: $text-hover;
+}

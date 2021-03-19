@@ -183,8 +183,16 @@ main {
   transform: scaleX(-1);
 }
 
+.player-name-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 .fa-crown {
   font-size: 1.25rem;
+  padding-top: 13px;
+  padding-left: 5px;
 }
 
 #match-score {
