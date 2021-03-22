@@ -5,15 +5,18 @@
 Possible names:
 
 1. Shine: Slippi Stats Parser
-2. Shine: SSBM Stats Parser/Generator
+2. Shine: SSBM Stats Parser
+3. Shine: SSBM Stats Viewer
 
 # TODO
 
 - [ ] Change inputs to form with button being submit
-- [ ] Change xhr request to fetch()
-- [ ] Style Stats Page
-- [ ] JS for stats page
-- [ ] Require.js or Browserify for stats js file
+- [ ] Fix drag/drop on homepage
+- [x] Change xhr request to fetch()
+- [x] Style Stats Page
+- [x] JS for stats page
+- [ ] Stock icons somewhere on match page
+- [ ] Media queries
 
 # About
 

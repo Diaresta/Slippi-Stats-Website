@@ -55,13 +55,13 @@ app.set('view engine', 'handlebars');
 // Routing
 app.get(['/', '/home'], (req, res) =>
   res.render('home', {
-    title: 'Shine: Slippi Stats Parser',
+    title: 'Shine: SSBM Stats Viewer',
   })
 );
 
 app.get(['/match-upload', ''], (req, res) =>
   res.render('match-upload', {
-    title: 'Shine: Slippi Stats Parser',
+    title: 'Shine: SSBM Stats Viewer',
   })
 );
 
@@ -78,7 +78,7 @@ app.post('/upload', (req, res) => {
         });
       } else {
         res.render('match-upload', {
-          title: 'Shine: Slippi Stats Parser',
+          title: 'Shine: SSBM Stats Viewer',
         });
         const game = new SlippiGame('./public/uploads/match.slp');
         const settings = game.getSettings();
