@@ -2,13 +2,12 @@ const STATS = '/json/stats.json';
 const CHARS = '/json/characters.json';
 const STAGES = '/json/stages.json';
 
-// Match Variables
-let stageID;
-
 // DOM Variables
 const domTime = document.getElementById('time');
 const domScore = document.getElementById('match-score');
 const domStage = document.getElementById('stage-img');
+const p1Image = document.getElementById('p1-image');
+const p2Image = document.getElementById('p2-image');
 const p1Name = document.getElementById('player-one-name');
 const p2Name = document.getElementById('player-two-name');
 const p1Crown = document.getElementById('p1-crown');
@@ -42,10 +41,11 @@ fetch(STATS)
   .then((res) => res.json())
   .then((data) => {
     // Stage ID Number
-    stageID = data[0].stageId;
-
-    // Stage Placeholder
-    // domStage.src ='';
+    let stageID = data[0].stageId;
+    let p1Char = data[0].players[0].characterId;
+    let p1Color = data[0].players[0].characterColor;
+    let p2Char = data[0].players[1].characterId;
+    let p2Color = data[0].players[1].characterColor;
 
     // Match frame length
     domTime.innerHTML = matchTime(60, data);
@@ -68,7 +68,18 @@ fetch(STATS)
     domCounterHits.innerHTML = 'Counter Hits';
     domAPM.innerHTML = 'APM';
 
-    console.log();
+    fetch(STAGES)
+      .then((res) => res.json())
+      .then((stageData) => {
+        matchStage(stageData, stageID);
+      });
+
+    fetch(CHARS)
+      .then((res) => res.json())
+      .then((charData) => {
+        // Player 1/2 Image/Names
+        playerImage(charData, p1Char, p2Char, p1Color, p2Color);
+      });
   });
 
 // Match score function
@@ -76,7 +87,7 @@ function matchWinner(playerNum, data) {
   let playerIndex = data[2].overall[playerNum].playerIndex;
   let killCount = data[2].overall[playerNum].killCount;
 
-  if (playerIndex == 0 && killCount == 4) {
+  if (killCount == 4) {
     domScore.innerHTML = '1 - 0';
     p1Crown.className = 'fas fa-crown';
     p2Crown.className = '';
@@ -93,7 +104,7 @@ function matchWinner(playerNum, data) {
 function matchTime(fps, data) {
   let frames = data[1].lastFrame;
 
-  var time = (frames) => {
+  let time = (frames) => {
     return frames < 10 ? '0' + frames : frames;
   };
 
@@ -104,12 +115,19 @@ function matchTime(fps, data) {
   ].join(':');
 }
 
+// Match stage function
+function matchStage(stageData, stageID) {
+  for (let i = 0; i < stageData.length; i++) {
+    if (stageData[i].id === stageID) {
+      domStage.src = stageData[i].stage_img;
+    }
+  }
+}
+
 // Player 1 stats function
 function p1Stats(data) {
-  p1Name.innerHTML = 'placeholder';
-
   p1TotalDamage.innerHTML = Math.round(data[2].overall[0].totalDamage);
-  p1AvgKillPercent.innerHTML = Math.round(averageKillPercent(0, data));
+  p1AvgKillPercent.innerHTML = Math.round(averageKillPercent(1, data));
   p1OpeningPerKill.innerHTML =
     Math.round(data[2].overall[0].openingsPerKill.ratio * 10) / 10.0;
   p1DamPerOpening.innerHTML =
@@ -121,10 +139,8 @@ function p1Stats(data) {
 
 // Player 2 stats function
 function p2Stats(data) {
-  p2Name.innerHTML = 'placeholder';
-
   p2TotalDamage.innerHTML = Math.round(data[2].overall[1].totalDamage);
-  p2AvgKillPercent.innerHTML = Math.round(averageKillPercent(1, data));
+  p2AvgKillPercent.innerHTML = Math.round(averageKillPercent(0, data));
   p2OpeningPerKill.innerHTML =
     Math.round(data[2].overall[1].openingsPerKill.ratio * 10) / 10.0;
   p2DamPerOpening.innerHTML =
@@ -132,6 +148,25 @@ function p2Stats(data) {
   p2NeutralWins.innerHTML = data[2].overall[1].neutralWinRatio.count;
   p2CounterHits.innerHTML = data[2].overall[1].counterHitRatio.count;
   p2APM.innerHTML = Math.round(data[2].overall[1].inputsPerMinute.ratio);
+}
+
+// Player 1/2 Image and Name
+function playerImage(charData, p1Char, p2Char, p1Color, p2Color) {
+  // Player 1 Character Image
+  for (let i = 0; i < charData.length; i++) {
+    if (charData[i].id === p1Char) {
+      p1Image.src = charData[i].colors[p1Color];
+      p1Name.innerHTML = charData[i].name;
+    }
+  }
+
+  // Player 2 Character Image
+  for (let i = 0; i < charData.length; i++) {
+    if (charData[i].id === p2Char) {
+      p2Image.src = charData[i].colors[p2Color];
+      p2Name.innerHTML = charData[i].name;
+    }
+  }
 }
 
 // Average kill percent function
@@ -153,20 +188,3 @@ function averageKillPercent(playerNum, data) {
   let AverageKillPercent = killTotal / (killArray.length - nullRemove);
   return AverageKillPercent;
 }
-
-// ----------------------------------------------------------------------------------------------
-// stage ID
-// stage = data[0].stageId;
-
-// match time
-// matchTime(test, 60);
-// let frames = data[1].lastFrame;
-
-// player 1 character stats
-// p1Stats = data[0].players[0];
-
-// player 1 character
-// p1Character = data[0].players[0].characterId;
-
-// player 1 color
-// p1Color = data[0].players[0].characterColor;

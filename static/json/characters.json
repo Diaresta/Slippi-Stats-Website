@@ -373,16 +373,16 @@
     "id": 20,
     "name": "Falco",
     "colors": {
-      "0": "/images/character-images/falcon/character/falcon (0).png",
-      "1": "/images/character-images/falcon/character/falcon (1).png",
-      "2": "/images/character-images/falcon/character/falcon (2).png",
-      "3": "/images/character-images/falcon/character/falcon (3).png"
+      "0": "/images/character-images/falco/character/falco (0).png",
+      "1": "/images/character-images/falco/character/falco (1).png",
+      "2": "/images/character-images/falco/character/falco (2).png",
+      "3": "/images/character-images/falco/character/falco (3).png"
     },
     "stocks": {
-      "0": "/images/character-images/falcon/stock/falcon (0).png",
-      "1": "/images/character-images/falcon/stock/falcon (1).png",
-      "2": "/images/character-images/falcon/stock/falcon (2).png",
-      "3": "/images/character-images/falcon/stock/falcon (3).png"
+      "0": "/images/character-images/falco/stock/falco (0).png",
+      "1": "/images/character-images/falco/stock/falco (1).png",
+      "2": "/images/character-images/falco/stock/falco (2).png",
+      "3": "/images/character-images/falco/stock/falco (3).png"
     }
   },
 
