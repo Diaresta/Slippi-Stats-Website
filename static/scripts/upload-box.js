@@ -2,71 +2,88 @@ const SUBMIT_FORM = document.getElementById('submit-form');
 const FILE_NAME = document.getElementById('file-name');
 const UPLOAD_BOX = document.getElementById('upload-box');
 const FILE_INPUT = document.getElementById('file-input');
+const DROP_AREA = document.getElementById('drop-area');
 const CLEAR_BUTTON = document.getElementById('clear-button');
 const STATS_BUTTON = document.getElementById('stats-button');
+const ERROR_TEXT = document.getElementById('error');
 
-// function uploadStyling() {
-//   var uploadFile = function (files) {
-//     var formData = new FormData(),
-//       xhr = new XMLHttpRequest(),
-//       x;
+function uploadStyling() {
+  //   var uploadFile = function (files) {
+  //     var formData = new FormData(),
+  //       xhr = new XMLHttpRequest(),
+  //       x;
 
-//     for (x = 0; x < files.length; x = x + 1) {
-//       formData.append('file[]', files[x]);
-//     }
+  //     for (x = 0; x < files.length; x = x + 1) {
+  //       formData.append('file[]', files[x]);
+  //     }
 
-//     xhr.onload = function () {
-//       var data = this.responseText;
-//       console.log(data);
-//     };
+  //     xhr.onload = function () {
+  //       var data = this.responseText;
+  //       console.log(data);
+  //     };
 
-//     xhr.open('POST', './public/uploads');
-//     xhr.send(formData);
+  //     xhr.open('POST', '/uploads');
+  //     xhr.send(formData);
 
-//     console.log(files);
-//   };
+  //     console.log(files);
+  //   };
 
-//   // Stops selected file from opening in browser
-//   UPLOAD_BOX.ondrop = function (e) {
-//     e.preventDefault();
-//     // this.className = 'upload-box';
-//     uploadFile(e.dataTransfer.files);
+  // Stops selected file from opening in browser
+  UPLOAD_BOX.ondrop = function (e) {
+    e.preventDefault();
+    // this.className = 'upload-box';
+    uploadFile(e.dataTransfer.files);
 
-//     console.log(e.dataTransfer.files[0].name);
+    console.log(e.dataTransfer.files[0].name);
 
-//     FILE_NAME.innerHTML = e.dataTransfer.files[0].name + ' - time';
-//     FILE_NAME.style.fontStyle = 'italic';
-//     STATS_BUTTON.style.border = '2px solid #21ba45';
-//     STATS_BUTTON.style.cursor = 'pointer';
-//   };
+    FILE_NAME.innerHTML = e.dataTransfer.files[0].name + ' - time';
+    FILE_NAME.style.fontStyle = 'italic';
+    STATS_BUTTON.style.border = '2px solid #21ba45';
+    STATS_BUTTON.style.cursor = 'pointer';
+  };
 
-//   // File upload styling hovering
-//   UPLOAD_BOX.ondragover = function () {
-//     this.className = 'upload-box dragover';
-//     return false;
-//   };
+  // File upload styling hovering
+  UPLOAD_BOX.ondragover = function () {
+    this.className = 'upload-box dragover';
+    return false;
+  };
 
-//   // File upload styling non-hovering
-//   UPLOAD_BOX.ondragleave = function () {
-//     this.className = 'upload-box';
-//     return false;
-//   };
+  // File upload styling non-hovering
+  UPLOAD_BOX.ondragleave = function () {
+    this.className = 'upload-box';
+    return false;
+  };
 
-//   // Upload File by Clicking
-//   UPLOAD_BOX.onclick = function () {
-//     FILE_INPUT.click();
-//   };
+  // Upload File by Clicking
+  DROP_AREA.onclick = function () {
+    FILE_INPUT.click();
+  };
 
-//   // Clears styling/inputs when clicked
-//   CLEAR_BUTTON.addEventListener('click', clearStyling);
+  // Clears styling/inputs when clicked
+  CLEAR_BUTTON.addEventListener('click', clearStyling);
 
-//   function clearStyling() {
-//     FILE_NAME.innerHTML = '';
-//     UPLOAD_BOX.className = 'upload-box';
-//     STATS_BUTTON.style.border = 'medium none';
-//     STATS_BUTTON.style.cursor = 'auto';
-//   }
-// }
+  function clearStyling() {
+    FILE_NAME.innerHTML = '';
+    UPLOAD_BOX.className = 'upload-box';
+    STATS_BUTTON.style.border = 'medium none';
+    STATS_BUTTON.style.cursor = 'auto';
+  }
+
+  // ----------------- FIX ABOVE -----------------------
+
+  // When file is manually uploaded
+  FILE_INPUT.onchange = function () {
+    UPLOAD_BOX.className = 'upload-box dragover';
+    STATS_BUTTON.style.backgroundColor = '#21ba45';
+    STATS_BUTTON.style.cursor = 'pointer';
+    STATS_BUTTON.onclick = function () {
+      ERROR_TEXT.innerHTML = 'Loading...';
+    };
+    return false;
+  };
+
+  // ----------------- FIX BELOW ----------------------
+}
 
 // SUBMIT_FORM.addEventListener('submit', (e) => {
 //   e.preventDefault();
@@ -87,7 +104,7 @@ const STATS_BUTTON = document.getElementById('stats-button');
 // SUBMIT_FORM.addEventListener('submit', (e) => {
 //   e.preventDefault();
 
-//   const slpFolder = 'upload.php';
+//   const slpFolder = 'upload.json';
 //   const formData = new FormData();
 
 //   console.log(FILE_INPUT.files);
@@ -100,4 +117,4 @@ const STATS_BUTTON = document.getElementById('stats-button');
 //   }).catch(console.error);
 // });
 
-// uploadStyling();
+uploadStyling();
