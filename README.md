@@ -11,6 +11,7 @@ Possible names:
 # TODO
 
 - [ ] Change inputs to form with button being submit
+- [ ] Submit button
 - [ ] Fix drag/drop on homepage
 - [x] Change xhr request to fetch()
 - [x] Style Stats Page

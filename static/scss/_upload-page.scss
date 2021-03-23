@@ -5,12 +5,13 @@ main {
   flex-direction: column;
   justify-content: center;
   text-align: center;
+
   // height: 50%;
 }
 
 #error {
-  padding-top: 75px;
-  margin-top: 80px;
+  // padding-top: 75px;
+  // margin-top: 80px;
   color: $accent-color;
   font-size: 1.5rem;
   animation: blinker 1s linear infinite;
@@ -23,14 +24,14 @@ main {
 }
 
 #upload-box {
-  margin: 100px auto 20px auto;
+  display: flex;
+  margin: 100px auto;
   width: 400px;
   height: 200px;
   border: 3px dotted $text-hover;
-  padding-top: 80px;
 
   input {
-    // opacity: 0;
+    opacity: 0;
   }
 }
 
@@ -39,10 +40,18 @@ main {
   color: $text-hover;
 }
 
+#drop-area {
+  height: 100%;
+}
+
+#select-text {
+  padding-top: 75px;
+}
+
 #stats-button {
   border: medium none;
   width: 400px;
-  margin-top: 75px;
+  margin-top: 30px;
   margin-left: -3px;
   color: $text-color;
   background-color: $text-hover;
@@ -50,8 +59,12 @@ main {
   cursor: auto;
 }
 
+#clear-error {
+  // padding-top: 200px;
+}
+
 #clear-button {
-  background: none;
+  text-decoration: none;
   border: none;
   margin: 0;
   padding: 0;
