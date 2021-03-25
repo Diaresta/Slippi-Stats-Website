@@ -76,6 +76,21 @@ function uploadStyling() {
     UPLOAD_BOX.className = 'upload-box dragover';
     STATS_BUTTON.style.backgroundColor = '#21ba45';
     STATS_BUTTON.style.cursor = 'pointer';
+
+    FILE_NAME.innerHTML = 'File uploaded!';
+    FILE_NAME.style.fontStyle = 'italic';
+
+    // Button hover color
+    STATS_BUTTON.onmouseover = function () {
+      this.style.backgroundColor = '#17a639';
+      this.style.color = '#ccc';
+    };
+
+    STATS_BUTTON.onmouseleave = function () {
+      this.style.backgroundColor = '#21ba45';
+      this.style.color = '#fff';
+    };
+
     STATS_BUTTON.onclick = function () {
       ERROR_TEXT.innerHTML = 'Loading...';
     };
