@@ -32,6 +32,9 @@ main {
 
   input {
     opacity: 0;
+    height: 100%;
+    width: 100%;
+    // display: block;
   }
 }
 
@@ -45,7 +48,13 @@ main {
 }
 
 #select-text {
-  padding-top: 75px;
+  // padding-top: 75px;
+}
+
+#input-text {
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%, -275%);
 }
 
 #stats-button {

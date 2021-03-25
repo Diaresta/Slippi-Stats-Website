@@ -2,134 +2,53 @@ const SUBMIT_FORM = document.getElementById('submit-form');
 const FILE_NAME = document.getElementById('file-name');
 const UPLOAD_BOX = document.getElementById('upload-box');
 const FILE_INPUT = document.getElementById('file-input');
+const INPUT_TEXT = document.getElementById('input-text');
 const DROP_AREA = document.getElementById('drop-area');
 const CLEAR_BUTTON = document.getElementById('clear-button');
 const STATS_BUTTON = document.getElementById('stats-button');
 const ERROR_TEXT = document.getElementById('error');
 
-function uploadStyling() {
-  //   var uploadFile = function (files) {
-  //     var formData = new FormData(),
-  //       xhr = new XMLHttpRequest(),
-  //       x;
+// File upload styling hovering
+UPLOAD_BOX.ondragover = function () {
+  this.className = 'upload-box dragover';
+  return false;
+};
 
-  //     for (x = 0; x < files.length; x = x + 1) {
-  //       formData.append('file[]', files[x]);
-  //     }
+// File upload styling non-hovering
+UPLOAD_BOX.ondragleave = function () {
+  this.className = 'upload-box';
+  return false;
+};
 
-  //     xhr.onload = function () {
-  //       var data = this.responseText;
-  //       console.log(data);
-  //     };
+// Upload File by Clicking
+DROP_AREA.onclick = function () {
+  FILE_INPUT.click();
+};
 
-  //     xhr.open('POST', '/uploads');
-  //     xhr.send(formData);
+// When file is manually uploaded
+FILE_INPUT.onchange = function () {
+  UPLOAD_BOX.className = 'upload-box dragover';
+  STATS_BUTTON.style.backgroundColor = '#21ba45';
+  STATS_BUTTON.style.cursor = 'pointer';
 
-  //     console.log(files);
-  //   };
+  FILE_NAME.innerHTML = 'File uploaded!';
+  FILE_NAME.style.fontStyle = 'italic';
 
-  // Stops selected file from opening in browser
-  UPLOAD_BOX.ondrop = function (e) {
-    e.preventDefault();
-    // this.className = 'upload-box';
-    uploadFile(e.dataTransfer.files);
+  INPUT_TEXT.style.transform = 'translate(-50%, -175%)';
 
-    console.log(e.dataTransfer.files[0].name);
-
-    FILE_NAME.innerHTML = e.dataTransfer.files[0].name + ' - time';
-    FILE_NAME.style.fontStyle = 'italic';
-    STATS_BUTTON.style.border = '2px solid #21ba45';
-    STATS_BUTTON.style.cursor = 'pointer';
+  // Button hover color
+  STATS_BUTTON.onmouseover = function () {
+    this.style.backgroundColor = '#17a639';
+    this.style.color = '#ccc';
   };
 
-  // File upload styling hovering
-  UPLOAD_BOX.ondragover = function () {
-    this.className = 'upload-box dragover';
-    return false;
+  STATS_BUTTON.onmouseleave = function () {
+    this.style.backgroundColor = '#21ba45';
+    this.style.color = '#fff';
   };
 
-  // File upload styling non-hovering
-  UPLOAD_BOX.ondragleave = function () {
-    this.className = 'upload-box';
-    return false;
+  STATS_BUTTON.onclick = function () {
+    ERROR_TEXT.innerHTML = 'Loading...';
   };
-
-  // Upload File by Clicking
-  DROP_AREA.onclick = function () {
-    FILE_INPUT.click();
-  };
-
-  // Clears styling/inputs when clicked
-  CLEAR_BUTTON.addEventListener('click', clearStyling);
-
-  function clearStyling() {
-    FILE_NAME.innerHTML = '';
-    UPLOAD_BOX.className = 'upload-box';
-    STATS_BUTTON.style.border = 'medium none';
-    STATS_BUTTON.style.cursor = 'auto';
-  }
-
-  // ----------------- FIX ABOVE -----------------------
-
-  // When file is manually uploaded
-  FILE_INPUT.onchange = function () {
-    UPLOAD_BOX.className = 'upload-box dragover';
-    STATS_BUTTON.style.backgroundColor = '#21ba45';
-    STATS_BUTTON.style.cursor = 'pointer';
-
-    FILE_NAME.innerHTML = 'File uploaded!';
-    FILE_NAME.style.fontStyle = 'italic';
-
-    // Button hover color
-    STATS_BUTTON.onmouseover = function () {
-      this.style.backgroundColor = '#17a639';
-      this.style.color = '#ccc';
-    };
-
-    STATS_BUTTON.onmouseleave = function () {
-      this.style.backgroundColor = '#21ba45';
-      this.style.color = '#fff';
-    };
-
-    STATS_BUTTON.onclick = function () {
-      ERROR_TEXT.innerHTML = 'Loading...';
-    };
-    return false;
-  };
-
-  // ----------------- FIX BELOW ----------------------
-}
-
-// SUBMIT_FORM.addEventListener('submit', (e) => {
-//   e.preventDefault();
-
-//   const slpFolder = 'upload.js';
-//   const formData = new FormData();
-
-//   console.log(FILE_INPUT.files);
-
-//   formData.append('FILE_INPUT', FILE_INPUT.files[0]);
-
-//   fetch(slpFolder, {
-//     method: 'POST',
-//     body: formData,
-//   }).catch(console.error);
-// });
-
-// SUBMIT_FORM.addEventListener('submit', (e) => {
-//   e.preventDefault();
-
-//   const slpFolder = 'upload.json';
-//   const formData = new FormData();
-
-//   console.log(FILE_INPUT.files);
-
-//   formData.append('FILE_INPUT', FILE_INPUT.files[0]);
-
-//   fetch(slpFolder, {
-//     method: 'POST',
-//     body: formData,
-//   }).catch(console.error);
-// });
-
-uploadStyling();
+  return false;
+};
