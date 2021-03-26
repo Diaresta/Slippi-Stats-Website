@@ -17,7 +17,7 @@ Possible names:
 - [x] Style Stats Page
 - [x] JS for stats page
 - [ ] Stock icons somewhere on match page
-- [ ] Media queries
+- [x] Media queries
 
 # About
 

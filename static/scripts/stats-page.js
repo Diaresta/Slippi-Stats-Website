@@ -126,12 +126,12 @@ function matchStage(stageData, stageID) {
 
 // Player 1 stats function
 function p1Stats(data) {
-  p1TotalDamage.innerHTML = Math.round(data[2].overall[0].totalDamage);
-  p1AvgKillPercent.innerHTML = Math.round(averageKillPercent(1, data));
+  p1TotalDamage.innerHTML = Math.round(data[2].overall[0].totalDamage) + '%';
+  p1AvgKillPercent.innerHTML = Math.round(averageKillPercent(1, data)) + '%';
   p1OpeningPerKill.innerHTML =
     Math.round(data[2].overall[0].openingsPerKill.ratio * 10) / 10.0;
   p1DamPerOpening.innerHTML =
-    Math.round(data[2].overall[0].damagePerOpening.ratio * 10) / 10.0;
+    Math.round(data[2].overall[0].damagePerOpening.ratio * 10) / 10.0 + '%';
   p1NeutralWins.innerHTML = data[2].overall[0].neutralWinRatio.count;
   p1CounterHits.innerHTML = data[2].overall[0].counterHitRatio.count;
   p1APM.innerHTML = Math.round(data[2].overall[0].inputsPerMinute.ratio);
@@ -139,12 +139,12 @@ function p1Stats(data) {
 
 // Player 2 stats function
 function p2Stats(data) {
-  p2TotalDamage.innerHTML = Math.round(data[2].overall[1].totalDamage);
-  p2AvgKillPercent.innerHTML = Math.round(averageKillPercent(0, data));
+  p2TotalDamage.innerHTML = Math.round(data[2].overall[1].totalDamage) + '%';
+  p2AvgKillPercent.innerHTML = Math.round(averageKillPercent(0, data)) + '%';
   p2OpeningPerKill.innerHTML =
     Math.round(data[2].overall[1].openingsPerKill.ratio * 10) / 10.0;
   p2DamPerOpening.innerHTML =
-    Math.round(data[2].overall[1].damagePerOpening.ratio * 10) / 10.0;
+    Math.round(data[2].overall[1].damagePerOpening.ratio * 10) / 10.0 + '%';
   p2NeutralWins.innerHTML = data[2].overall[1].neutralWinRatio.count;
   p2CounterHits.innerHTML = data[2].overall[1].counterHitRatio.count;
   p2APM.innerHTML = Math.round(data[2].overall[1].inputsPerMinute.ratio);
