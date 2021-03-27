@@ -8,6 +8,8 @@ const domScore = document.getElementById('match-score');
 const domStage = document.getElementById('stage-img');
 const p1Image = document.getElementById('p1-image');
 const p2Image = document.getElementById('p2-image');
+const p1Stocks = document.getElementsByClassName('p1-stock');
+const p2Stocks = document.getElementsByClassName('p2-stock');
 const p1Name = document.getElementById('player-one-name');
 const p2Name = document.getElementById('player-two-name');
 const p1Crown = document.getElementById('p1-crown');
@@ -58,6 +60,9 @@ fetch(STATS)
 
     // Player 2 stats
     p2Stats(data);
+
+    // P1/2 Stock Icons
+    stockCount(data);
 
     // Stat names
     domTotalDamage.innerHTML = 'Total Damage Done';
@@ -152,19 +157,27 @@ function p2Stats(data) {
 
 // Player 1/2 Image and Name
 function playerImage(charData, p1Char, p2Char, p1Color, p2Color) {
-  // Player 1 Character Image
+  // Player 1 Character/Stocks Image
   for (let i = 0; i < charData.length; i++) {
     if (charData[i].id === p1Char) {
       p1Image.src = charData[i].colors[p1Color];
       p1Name.innerHTML = charData[i].name;
+
+      for (let ii = 0; ii < p1Stocks.length; ii++) {
+        p1Stocks[ii].src = charData[i].stocks[p1Color];
+      }
     }
   }
 
-  // Player 2 Character Image
+  // Player 2 Character/Stocks Image
   for (let i = 0; i < charData.length; i++) {
     if (charData[i].id === p2Char) {
       p2Image.src = charData[i].colors[p2Color];
       p2Name.innerHTML = charData[i].name;
+
+      for (let ii = 0; ii < p2Stocks.length; ii++) {
+        p2Stocks[ii].src = charData[i].stocks[p2Color];
+      }
     }
   }
 }
@@ -187,4 +200,27 @@ function averageKillPercent(playerNum, data) {
   let killTotal = killArray.reduce((a, b) => a + b, 0);
   let AverageKillPercent = killTotal / (killArray.length - nullRemove);
   return AverageKillPercent;
+}
+
+//P1/P2 stock icons
+function stockCount(data) {
+  let p1KillCount = data[2].overall[0].killCount;
+  let p2KillCount = data[2].overall[1].killCount;
+
+  for (let i = 0; i < p1KillCount; i++) {
+    p2Stocks[i].style.opacity = '0.25';
+  }
+
+  for (let ii = 0; ii < p2KillCount; ii++) {
+    p1Stocks[ii].style.opacity = '0.25';
+  }
+
+  reverseChildren(document.getElementById('p1-stocks'));
+}
+
+// P1 Reverse Stock Icons
+function reverseChildren(parent) {
+  for (var i = 1; i < parent.childNodes.length; i++) {
+    parent.insertBefore(parent.childNodes[i], parent.firstChild);
+  }
 }
