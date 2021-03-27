@@ -47,7 +47,6 @@ function writeToFile(output) {
 
 // Static Files
 app.use(express.static(path.join(__dirname, 'static')));
-// app.use(bodyParser.json());
 
 app.engine('handlebars', exphbs({ defaultLayout: 'main' }));
 app.set('view engine', 'handlebars');
@@ -91,6 +90,21 @@ app.post('/upload', (req, res) => {
       }
     }
   });
+});
+
+// Error Handling
+app.use(function (req, res, next) {
+  var err = new Error('Not Found');
+  err.status = 404;
+  next(err);
+});
+
+app.use(function (err, req, res, next) {
+  if (res.status(err.status)) {
+    res.render('error', {
+      title: `Shine - ${err.status} Error`,
+    });
+  }
 });
 
 app.listen(PORT, () => {

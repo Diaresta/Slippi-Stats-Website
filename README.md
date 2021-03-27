@@ -16,8 +16,12 @@ Possible names:
 - [x] Change xhr request to fetch()
 - [x] Style Stats Page
 - [x] JS for stats page
-- [ ] Stock icons somewhere on match page
+- [x] Stock icons somewhere on match page
 - [x] Media queries
+- [x] Error handling
+- [ ] Split js files
+- [ ] Add a demo page
+- [ ] Actions stats. Button to swap out main stats with actions
 
 # About
 
