@@ -6,6 +6,7 @@ const STAGES = '/json/stages.json';
 const domTime = document.getElementById('time');
 const domScore = document.getElementById('match-score');
 const domStage = document.getElementById('stage-img');
+const statSwitch = document.getElementById('stat-switch');
 const p1Image = document.getElementById('p1-image');
 const p2Image = document.getElementById('p2-image');
 const p1Stocks = document.getElementsByClassName('p1-stock');
@@ -31,6 +32,17 @@ const p1NeutralWins = document.getElementById('p1-neutral-wins');
 const p1CounterHits = document.getElementById('p1-counter-hits');
 const p1APM = document.getElementById('p1-apm');
 
+const p1Wavedash = document.getElementById('p1-wavedash-count');
+const p1Waveland = document.getElementById('p1-waveland-count');
+const p1Airdodge = document.getElementById('p1-airdodge-count');
+const p1Dashdance = document.getElementById('p1-dashdance-count');
+const p1Spotdodge = document.getElementById('p1-spotdodge-count');
+const p1Ledgegrab = document.getElementById('p1-ledgegrab-count');
+const p1Roll = document.getElementById('p1-roll-count');
+
+const player1Stats = document.getElementById('p1-stats');
+const player1Actions = document.getElementById('p1-actions');
+
 const p2TotalDamage = document.getElementById('p2-total-damage-done');
 const p2AvgKillPercent = document.getElementById('p2-average-kill-percent');
 const p2OpeningPerKill = document.getElementById('p2-openings-per-kill');
@@ -38,6 +50,17 @@ const p2DamPerOpening = document.getElementById('p2-damage-per-opening');
 const p2NeutralWins = document.getElementById('p2-neutral-wins');
 const p2CounterHits = document.getElementById('p2-counter-hits');
 const p2APM = document.getElementById('p2-apm');
+
+const p2Wavedash = document.getElementById('p2-wavedash-count');
+const p2Waveland = document.getElementById('p2-waveland-count');
+const p2Airdodge = document.getElementById('p2-airdodge-count');
+const p2Dashdance = document.getElementById('p2-dashdance-count');
+const p2Spotdodge = document.getElementById('p2-spotdodge-count');
+const p2Ledgegrab = document.getElementById('p2-ledgegrab-count');
+const p2Roll = document.getElementById('p2-roll-count');
+
+const player2Stats = document.getElementById('p2-stats');
+const player2Actions = document.getElementById('p2-actions');
 
 fetch(STATS)
   .then((res) => res.json())
@@ -61,17 +84,14 @@ fetch(STATS)
     // Player 2 stats
     p2Stats(data);
 
+    // Player 1 Actions
+    p1Actions(data);
+
+    // Player 2 Actions
+    p2Actions(data);
+
     // P1/2 Stock Icons
     stockCount(data);
-
-    // Stat names
-    domTotalDamage.innerHTML = 'Total Damage Done';
-    domAvgKillPercent.innerHTML = 'Average Kill Percent';
-    domOpeningPerKill.innerHTML = 'Openings per Kill';
-    domDamPerOpening.innerHTML = 'Damage per Opening';
-    domNeutralWins.innerHTML = 'Neutral Wins';
-    domCounterHits.innerHTML = 'Counter Hits';
-    domAPM.innerHTML = 'APM';
 
     fetch(STAGES)
       .then((res) => res.json())
@@ -155,6 +175,28 @@ function p2Stats(data) {
   p2APM.innerHTML = Math.round(data[2].overall[1].inputsPerMinute.ratio);
 }
 
+// Player 1 actions function
+function p1Actions(data) {
+  p1Wavedash.innerHTML = data[2].actionCounts[0].wavedashCount;
+  p1Waveland.innerHTML = data[2].actionCounts[0].wavelandCount;
+  p1Airdodge.innerHTML = data[2].actionCounts[0].airDodgeCount;
+  p1Dashdance.innerHTML = data[2].actionCounts[0].dashDanceCount;
+  p1Spotdodge.innerHTML = data[2].actionCounts[0].spotDodgeCount;
+  p1Ledgegrab.innerHTML = data[2].actionCounts[0].ledgegrabCount;
+  p1Roll.innerHTML = data[2].actionCounts[0].rollCount;
+}
+
+// Player 2 actions function
+function p2Actions(data) {
+  p2Wavedash.innerHTML = data[2].actionCounts[1].wavedashCount;
+  p2Waveland.innerHTML = data[2].actionCounts[1].wavelandCount;
+  p2Airdodge.innerHTML = data[2].actionCounts[1].airDodgeCount;
+  p2Dashdance.innerHTML = data[2].actionCounts[1].dashDanceCount;
+  p2Spotdodge.innerHTML = data[2].actionCounts[1].spotDodgeCount;
+  p2Ledgegrab.innerHTML = data[2].actionCounts[1].ledgegrabCount;
+  p2Roll.innerHTML = data[2].actionCounts[1].rollCount;
+}
+
 // Player 1/2 Image and Name
 function playerImage(charData, p1Char, p2Char, p1Color, p2Color) {
   // Player 1 Character/Stocks Image
@@ -222,5 +264,53 @@ function stockCount(data) {
 function reverseChildren(parent) {
   for (var i = 1; i < parent.childNodes.length; i++) {
     parent.insertBefore(parent.childNodes[i], parent.firstChild);
+  }
+}
+
+// Stat names
+domTotalDamage.innerHTML = 'Total Damage Done';
+domAvgKillPercent.innerHTML = 'Average Kill Percent';
+domOpeningPerKill.innerHTML = 'Openings per Kill';
+domDamPerOpening.innerHTML = 'Damage per Opening';
+domNeutralWins.innerHTML = 'Neutral Wins';
+domCounterHits.innerHTML = 'Counter Hits';
+domAPM.innerHTML = 'APM';
+
+statSwitch.onclick = () => switchStats();
+
+// Switches Between Stats/Actions ul
+function switchStats() {
+  if (statSwitch.innerHTML == 'Get Actions') {
+    domTotalDamage.innerHTML = 'Wavedashes';
+    domAvgKillPercent.innerHTML = 'Wavelands';
+    domOpeningPerKill.innerHTML = 'Air Dodges';
+    domDamPerOpening.innerHTML = 'Dash Dances';
+    domNeutralWins.innerHTML = 'Spot Dodges';
+    domCounterHits.innerHTML = 'Ledgegrabs';
+    domAPM.innerHTML = 'Rolls';
+
+    player1Stats.style.display = 'none';
+    player1Actions.style.display = 'inherit';
+
+    player2Stats.style.display = 'none';
+    player2Actions.style.display = 'inherit';
+
+    statSwitch.innerHTML = 'Get Stats';
+  } else {
+    domTotalDamage.innerHTML = 'Total Damage Done';
+    domAvgKillPercent.innerHTML = 'Average Kill Percent';
+    domOpeningPerKill.innerHTML = 'Openings per Kill';
+    domDamPerOpening.innerHTML = 'Damage per Opening';
+    domNeutralWins.innerHTML = 'Neutral Wins';
+    domCounterHits.innerHTML = 'Counter Hits';
+    domAPM.innerHTML = 'APM';
+
+    player1Stats.style.display = 'inherit';
+    player1Actions.style.display = 'none';
+
+    player2Stats.style.display = 'inherit';
+    player2Actions.style.display = 'none';
+
+    statSwitch.innerHTML = 'Get Actions';
   }
 }

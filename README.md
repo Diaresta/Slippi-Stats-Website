@@ -20,8 +20,10 @@ Possible names:
 - [x] Media queries
 - [x] Error handling
 - [ ] Split js files
-- [ ] Add a demo page
-- [ ] Actions stats. Button to swap out main stats with actions
+- [x] Add a demo page [ ] add way to dynamically load demo js file
+- [x] Actions stats. Button to swap out main stats with actions
+- [ ] Match upload page error if no uploaded file
+- [ ] Accessibility alt names
 
 # About
 

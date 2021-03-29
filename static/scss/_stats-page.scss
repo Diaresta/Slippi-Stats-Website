@@ -15,6 +15,10 @@
     color: gold;
   }
 
+  ul {
+    padding-left: 0px;
+  }
+
   li {
     list-style: none;
     font-size: 1.2rem;
@@ -105,6 +109,29 @@
 #stage-img {
   height: 150px;
   border: 1px solid $accent-color;
+}
+
+#p1-actions,
+#p2-actions {
+  display: none;
+}
+
+#stat-switch {
+  width: 95px;
+  margin: auto;
+  color: $text-color;
+  background-color: $accent-color;
+  border: none;
+  cursor: pointer;
+
+  outline: none;
+  box-shadow: none;
+}
+
+#stat-switch:hover {
+  color: $text-hover;
+  background-color: $accent-color;
+  transition: color 0s;
 }
 
 @media screen and (max-width: 1450px) {
