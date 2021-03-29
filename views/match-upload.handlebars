@@ -8,7 +8,7 @@
                     <h2 id="player-one-name"></h2><i id="p1-crown" class=""></i>
                 </div>
 
-                <ul>
+                <ul id="p1-stats">
                     <li id="p1-total-damage-done"></li>
                     <li id="p1-average-kill-percent"></li>
                     <li id="p1-openings-per-kill"></li>
@@ -16,6 +16,16 @@
                     <li id="p1-neutral-wins"></li>
                     <li id="p1-counter-hits"></li>
                     <li id="p1-apm"></li>
+                </ul>
+
+                <ul id="p1-actions">
+                    <li id="p1-wavedash-count"></li>
+                    <li id="p1-waveland-count"></li>
+                    <li id="p1-airdodge-count"></li>
+                    <li id="p1-dashdance-count"></li>
+                    <li id="p1-spotdodge-count"></li>
+                    <li id="p1-ledgegrab-count"></li>
+                    <li id="p1-roll-count"></li>
                 </ul>
             </div>
 
@@ -38,13 +48,13 @@
                 <p id="time"></p>
                 <img id="stage-img" src="">
                 <ul>
-                    <li id="total-damage-done">Total Damage Done</li>
-                    <li id="average-kill-percent">Average Kill Percent</li>
-                    <li id="openings-per-kill">Openings per Kill</li>
-                    <li id="damage-per-opening">Damage per Opening</li>
-                    <li id="neutral-wins">Neutral Wins</li>
-                    <li id="counter-hits">Counter Hits</li>
-                    <li id="apm">APM</li>
+                    <li id="total-damage-done"></li>
+                    <li id="average-kill-percent"></li>
+                    <li id="openings-per-kill"></li>
+                    <li id="damage-per-opening"></li>
+                    <li id="neutral-wins"></li>
+                    <li id="counter-hits"></li>
+                    <li id="apm"></li>
                 </ul>
             </div>
 
@@ -54,7 +64,7 @@
                     <h2 id="player-two-name"></h2><i id="p2-crown" class=""></i>
                 </div>
 
-                <ul>
+                <ul id="p2-stats">
                     <li id="p2-total-damage-done"></li>
                     <li id="p2-average-kill-percent"></li>
                     <li id="p2-openings-per-kill"></li>
@@ -63,9 +73,19 @@
                     <li id="p2-counter-hits"></li>
                     <li id="p2-apm"></li>
                 </ul>
+
+                <ul id="p2-actions">
+                    <li id="p2-wavedash-count"></li>
+                    <li id="p2-waveland-count"></li>
+                    <li id="p2-airdodge-count"></li>
+                    <li id="p2-dashdance-count"></li>
+                    <li id="p2-spotdodge-count"></li>
+                    <li id="p2-ledgegrab-count"></li>
+                    <li id="p2-roll-count"></li>
+                </ul>
             </div>
         </div>
-        <p>{{test}}</p>
+        <button id="stat-switch" class="btn btn-sm">Get Actions</button>
     </main>
 
     <script src=" scripts/stats-page.js" type="module"></script>
