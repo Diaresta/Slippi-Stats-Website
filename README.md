@@ -23,7 +23,7 @@ Possible names:
 - [x] Add a demo page [ ] add way to dynamically load demo js file
 - [x] Actions stats. Button to swap out main stats with actions
 - [ ] Match upload page error if no uploaded file
-- [ ] Accessibility alt names
+- [x] Accessibility alt names
 
 # About
 
