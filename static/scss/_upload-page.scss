@@ -85,3 +85,16 @@ main {
 #clear-button:hover {
   color: $text-hover;
 }
+
+#demo-button {
+  @extend #clear-button;
+  color: $accent-color;
+  position: absolute;
+  top: 140px;
+  width: 30px;
+  height: 20px;
+}
+
+#demo-button:hover {
+  color: #17a639;
+}

@@ -19,10 +19,10 @@ Possible names:
 - [x] Stock icons somewhere on match page
 - [x] Media queries
 - [x] Error handling
-- [ ] Split js files
-- [x] Add a demo page [ ] add way to dynamically load demo js file
+- [o] Split js files
+- [x] Add a demo page [x] add way to dynamically load demo js file
 - [x] Actions stats. Button to swap out main stats with actions
-- [ ] Match upload page error if no uploaded file
+- [o] Match upload page error if no uploaded file
 - [x] Accessibility alt names
 
 # About

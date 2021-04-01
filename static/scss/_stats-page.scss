@@ -134,6 +134,10 @@
   transition: color 0s;
 }
 
+#demo-test {
+  display: none;
+}
+
 @media screen and (max-width: 1450px) {
   #stats-container {
     justify-content: space-around;

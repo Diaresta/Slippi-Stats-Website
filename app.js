@@ -67,6 +67,7 @@ app.get(['/match-upload', ''], (req, res) =>
 app.get(['/match-upload-demo', ''], (req, res) =>
   res.render('match-upload', {
     title: 'Shine: SSBM Stats Viewer',
+    demo: 'demo',
   })
 );
 

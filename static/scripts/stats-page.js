@@ -1,4 +1,9 @@
-const STATS = '/json/stats.json';
+let STATS;
+if (document.getElementById('demo-test').innerHTML == 'demo') {
+  STATS = '/json/match-demo.json';
+} else {
+  STATS = '/json/stats.json';
+}
 const CHARS = '/json/characters.json';
 const STAGES = '/json/stages.json';
 
