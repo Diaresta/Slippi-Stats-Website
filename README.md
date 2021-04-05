@@ -4,7 +4,7 @@ _Shine_, as the title suggests, is a tool that parses [.slp](https://slippi.gg/)
 
 ### Stats
 
-(https://raw.githubusercontent.com/Diaresta/Slippi-Stats-Website/main/static/images/stats-gif.gif)
+![enter image description here](https://raw.githubusercontent.com/Diaresta/Slippi-Stats-Website/main/static/images/stats-gif.gif)
 
 ## How to Contribute
 
