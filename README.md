@@ -1,30 +1,25 @@
-# Slippi-Stats-Website
+# Shine: SSBM Stats Viewer
 
-!!Bootstrap is overriding css!!
+_Shine_, as the title suggests, is a tool that parses [.slp](https://slippi.gg/) files, computes stats, and displays them in a visibly succinct way, à la [MMA stats](https://www.espn.com/mma/fightcenter). _Shine_ strives to add another layer of depth to our favorite game: _Super Smash Bros. Melee_. ~~(and maybe another way to tell your friend no johns, or explain why Fox-Marth is _actually_ 60-40.)~~
 
-Possible names:
+### Stats
 
-1. Shine: Slippi Stats Parser
-2. Shine: SSBM Stats Parser
-3. Shine: SSBM Stats Viewer
+gif here
 
-# TODO
+## How to Contribute
 
-- [x] Change inputs to form with button being submit
-- [x] Submit button
-- [x] Fix drag/drop on homepage
-- [x] Change xhr request to fetch()
-- [x] Style Stats Page
-- [x] JS for stats page
-- [x] Stock icons somewhere on match page
-- [x] Media queries
-- [x] Error handling
-- [o] Split js files
-- [x] Add a demo page [x] add way to dynamically load demo js file
-- [x] Actions stats. Button to swap out main stats with actions
-- [o] Match upload page error if no uploaded file
-- [x] Accessibility alt names
+If you'd like to contribute to _Shine_, do the following:
 
-# About
+1.  Clone/Fork the repository.
+2.  Install [node.js](https://nodejs.org/en/).
+3.  Install JavaScript dependencies in the repository directory.
+    `npm install` - Dependencies are: - [express](https://expressjs.com/) - [handlebars](https://handlebarsjs.com/) - [multer](https://www.npmjs.com/package/multer) - [slippi-js](https://github.com/project-slippi/slippi-js)
+4.  Commit and push your changes.
+5.  Submit a pull request.
+    - Pull requests will be reviewed, and if usable, will be merged into the main branch. _Pull requests are not guaranteed to be merged._
 
-This work is purely educational, and isn't approved, endorsed, or affiliated with [Slippi](https://slippi.gg/). All Slippi assets/name belong to Slippi, and can/will be removed upon request.
+### Extra Stuff
+
+This work is purely educational, and isn't approved, endorsed, or affiliated with [Slippi](https://slippi.gg/). All Slippi name/assets belong to the aforementioned, and can/will be removed upon request.
+
+---
