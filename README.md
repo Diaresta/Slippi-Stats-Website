@@ -23,5 +23,3 @@ If you'd like to contribute to _Shine_, do the following:
 This work is purely educational, and isn't approved, endorsed, or affiliated with [Slippi](https://slippi.gg/). All Slippi name/assets belong to the aforementioned, and can/will be removed upon request.
 
 ---
-
-TEST
