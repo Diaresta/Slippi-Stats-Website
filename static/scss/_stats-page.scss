@@ -174,14 +174,14 @@
   }
 }
 
-@media screen and (max-width: 1100px) {
-  #stat-titles {
-    li::before {
-      width: 45%;
-      transform: translate(-21%, -50%);
-    }
-  }
-}
+// @media screen and (max-width: 1100px) {
+//   #stat-titles {
+//     li::before {
+//       width: 45%;
+//       transform: translate(-21%, -50%);
+//     }
+//   }
+// }
 
 @media screen and (max-width: 1000px) {
   #stat-titles {
@@ -210,8 +210,32 @@
 }
 
 @media screen and (max-height: 800px) {
-  #stats-container {
-    margin-top: -45px;
+  #stat-titles {
+    padding-top: 25px;
+
+    ul {
+      padding-top: 70px;
+    }
+
+    li::before {
+      width: 45%;
+      transform: translate(-25%, -50%);
+    }
+  }
+
+  #stock-icons {
+    position: absolute;
+    top: 49%;
+    left: 0;
+    right: 0;
+  }
+
+  #stat-switch {
+    margin-top: -13px;
+  }
+
+  .character-image {
+    height: 325px;
   }
 }
 
