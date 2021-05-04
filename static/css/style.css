@@ -329,6 +329,12 @@ main {
   }
 }
 
+@media screen and (max-height: 900px) {
+  #stats-container {
+    margin-top: -35px;
+  }
+}
+
 @media screen and (max-height: 800px) {
   #stats-container {
     margin-top: -45px;
