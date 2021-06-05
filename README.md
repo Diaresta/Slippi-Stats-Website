@@ -4,7 +4,7 @@ _Shine_, as the title suggests, is a tool that parses [.slp](https://slippi.gg/)
 
 ### Stats
 
-![enter image description here](https://raw.githubusercontent.com/Diaresta/Slippi-Stats-Website/main/static/images/stats-gif.gif)
+![Site example](https://raw.githubusercontent.com/Diaresta/Slippi-Stats-Website/main/static/images/stats-gif.gif)
 
 ## How to Contribute
 
@@ -13,13 +13,18 @@ If you'd like to contribute to _Shine_, do the following:
 1.  Clone/Fork the repository.
 2.  Install [node.js](https://nodejs.org/en/).
 3.  Install JavaScript dependencies in the repository directory.
-    `npm install` - Dependencies are: - [express](https://expressjs.com/) - [handlebars](https://handlebarsjs.com/) - [multer](https://www.npmjs.com/package/multer) - [slippi-js](https://github.com/project-slippi/slippi-js)
+    `npm install`
+    - Dependencies are:
+    - [express](https://expressjs.com/)
+    - [handlebars](https://handlebarsjs.com/)
+    - [multer](https://www.npmjs.com/package/multer)
+    - [slippi-js](https://github.com/project-slippi/slippi-js)
 4.  Commit and push your changes.
 5.  Submit a pull request.
     - Pull requests will be reviewed, and if usable, will be merged into the main branch. _Pull requests are not guaranteed to be merged._
 
+---
+
 ## Extra Stuff
 
 This work is purely educational, and isn't approved, endorsed, or affiliated with [Slippi](https://slippi.gg/). All Slippi name/assets belong to the aforementioned, and can/will be removed upon request.
-
----
