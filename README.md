@@ -15,10 +15,10 @@ If you'd like to contribute to _Shine_, do the following:
 3.  Install JavaScript dependencies in the repository directory.
     `npm install`
     - Dependencies are:
-    - [express](https://expressjs.com/)
-    - [handlebars](https://handlebarsjs.com/)
-    - [multer](https://www.npmjs.com/package/multer)
-    - [slippi-js](https://github.com/project-slippi/slippi-js)
+      - [express](https://expressjs.com/)
+      - [handlebars](https://handlebarsjs.com/)
+      - [multer](https://www.npmjs.com/package/multer)
+      - [slippi-js](https://github.com/project-slippi/slippi-js)
 4.  Commit and push your changes.
 5.  Submit a pull request.
     - Pull requests will be reviewed, and if usable, will be merged into the main branch. _Pull requests are not guaranteed to be merged._
