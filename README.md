@@ -4,7 +4,7 @@
 
 ### Stats
 
-![Site example](https://raw.githubusercontent.com/Diaresta/Slippi-Stats-Website/main/static/images/stats-gif.gif)
+![Site example](/static/images/readme-ex.jpg)
 
 ## How to Contribute
 
