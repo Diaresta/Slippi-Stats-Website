@@ -2,8 +2,6 @@
 
 **_Shine_**, as the title suggests, is a tool that parses [.slp](https://slippi.gg/) files, computes stats, and displays them in a visibly succinct way, à la [MMA stats](https://www.espn.com/mma/fightcenter). **_Shine_** strives to add another layer of depth to our favorite game: _Super Smash Bros. Melee_. ~~(and maybe another way to tell your friend no johns, or explain why Fox-Marth is _actually_ 60-40.)~~
 
-### Stats
-
 ![Site example](/static/images/readme-ex.jpg)
 
 ## How to Contribute
